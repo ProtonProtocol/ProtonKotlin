@@ -1,0 +1,3055 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+
+
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.21.1"/>
+<link rel="icon" href="https://protonprotocol.github.io/ProtonKotlin/favicon.ico">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>ChainProviderRepository</title>
+
+
+<meta name="description" content="Kotlin library for handling Proton Chain operations.">
+
+
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="https://protonprotocol.github.io/ProtonKotlin/Editorial/f1760af0/assets/css/editorial_main.css"  />
+<link rel="stylesheet" type="text/css" href="https://protonprotocol.github.io/ProtonKotlin/Editorial/f1760af0/assets/css/editorial_orchidCustomizations.css"  />
+<link rel="stylesheet" type="text/css" href="https://protonprotocol.github.io/ProtonKotlin/Editorial/f1760af0/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://protonprotocol.github.io/ProtonKotlin/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="https://protonprotocol.github.io/ProtonKotlin/assets/css/orchidSourceDoc.css"  />
+<!-- end:inject styles -->
+
+
+
+
+
+<!-- start:debug info -->
+
+<!-- THEME -->
+<!-- Type: Editorial -->
+<!-- Class: com.eden.orchid.editorial.EditorialTheme -->
+
+<!-- PAGE -->
+<!-- Type: classes -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocPage -->
+<!-- Layout: index -->
+<!-- Resolved Layout: templates/layouts/index.peb -->
+<!-- Page Template: kotlindocClass, sourceDocPage, classes, page -->
+<!-- Resolved Page Template: templates/pages/sourceDocPage.peb -->
+
+<!-- RESOURCE -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocResource -->
+<!-- Source Filename:  -->
+
+<!-- COMPLETE PAGE CONFIGURATION -->
+<script>
+    window.allData = {"reference":{"path":"kotlindoc","baseUrl":"https://protonprotocol.github.io/ProtonKotlin","fileName":"com/metallicus/protonsdk/repository/chainproviderrepository","extension":"html","usePrettyUrl":true,"link":"https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/chainproviderrepository"},"description":"","title":"ChainProviderRepository"};
+</script>
+
+<!-- end:debug info -->
+
+
+
+<script>
+    window.site = {"orchidVersion":"0.21.1","baseUrl":"https://protonprotocol.github.io/ProtonKotlin","environment":"debug","version":"1.0.5"};
+</script>
+
+
+    <!-- start:inject meta-components [head] -->
+    
+
+        
+            
+        
+
+        
+            
+        
+    
+    <!-- end:inject meta-components [head] -->
+
+
+
+    <!-- start:inject meta-components [head] -->
+    
+    <!-- end:inject meta-components [head] -->
+
+
+
+
+
+
+
+</head>
+<body class="is-loading">
+
+
+
+
+
+    <!-- start:inject meta-components [bodyStart] -->
+    
+
+        
+            
+        
+
+        
+    
+    <!-- end:inject meta-components [bodyStart] -->
+
+
+
+    <!-- start:inject meta-components [bodyStart] -->
+    
+    <!-- end:inject meta-components [bodyStart] -->
+
+
+
+
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            
+                <header id="header">
+    <a href="https://protonprotocol.github.io/ProtonKotlin" class="logo">Proton Kotlin SDK</a>
+    <ul class="icons">
+    
+    
+        <li>
+            <a href="https://github.com/ProtonProtocol/ProtonKotlin" class="icon fa-github">
+                <span class="label">github</span>
+            </a>
+        </li>
+    
+    
+    </ul>
+</header>
+
+            
+            
+            
+            
+                <section id="pageContent">
+                    <header class="major"><h2>ChainProviderRepository</h2></header>
+                    <article>
+                        
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <div class="sourcedoc-page orchid-sourcedoc content">
+  
+<div class="sourcedoc-section section-root section-level-1" id="ChainProviderRepository">
+
+
+  
+
+  
+    <div class="sourcedoc-section section-element" id="7f1aafde222613a07154ecbad30fefe96990f44a">
+      
+      <p class="sourcedoc-section section-signature">
+        <code>class <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/chainproviderrepository">ChainProviderRepository</a>: Any</code>
+      </p>
+
+      
+        
+    <!-- start:inject components -->
+    
+    <!-- end:inject components -->
+
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="constructors">
+
+
+  
+    <h2 class="sourcedoc-section section-name">Constructors</h2>
+  
+
+  
+    <div class="sourcedoc-section section-element" id="609fd1c9e1a43656949584c072ff20b570bbef36">
+      
+      <h3 class="sourcedoc-section element-name">&lt;init&gt;</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>constructor(chainProviderDao: <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/chainproviderdao">ChainProviderDao</a>, protonChainService: <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/protonchainservice">ProtonChainService</a>, protonChainStatsService: <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/protonchainstatsservice">ProtonChainStatsService</a>)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="b2ecb22dabd86e1ce11bc447090084d1e97530a9">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="1399059cda4d4e4801cc8fcf86d0563c23120be4">
+        <td class="sourcedoc-section section-signature">
+          <code>chainProviderDao: <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/chainproviderdao">ChainProviderDao</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="c17019fbdadd2ab3033c22b553f112d5d75ad9d7">
+        <td class="sourcedoc-section section-signature">
+          <code>protonChainService: <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/protonchainservice">ProtonChainService</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="1562a11792d6febc2947e0a944fedee1b216882c">
+        <td class="sourcedoc-section section-signature">
+          <code>protonChainStatsService: <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/protonchainstatsservice">ProtonChainStatsService</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="methods">
+
+
+  
+    <h2 class="sourcedoc-section section-name">Methods</h2>
+  
+
+  
+    <div class="sourcedoc-section section-element" id="7493c684412ae936c2f4ce4b8bccb70c19d811ed">
+      
+      <h3 class="sourcedoc-section element-name">removeAll</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>suspend fun removeAll()</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="79315dcd49b8fd0c74cff06e9780c62483d43974">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="c76088cb1be9ab97baa99e2734c42b4d34ee059e">
+      
+      <h3 class="sourcedoc-section element-name">addChainProvider</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>suspend fun addChainProvider(chainProvider: <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chainprovider">ChainProvider</a>)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="3314585ede603610ea80ded368e0fa407e2a990d">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="9f6693d5534d57f0eb35ee6b9bb87a3552562865">
+        <td class="sourcedoc-section section-signature">
+          <code>chainProvider: <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chainprovider">ChainProvider</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="1651dc1fa730342a599391a534ab20fb4aa1fe5d">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="9f8b20cb6d999f8e3261bc133ff4f9fcf4b6be64">
+      
+      <h3 class="sourcedoc-section element-name">updateChainProvider</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>suspend fun updateChainProvider(chainProvider: <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chainprovider">ChainProvider</a>)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="eded306154afeb3c77050d7bdc7e10f9f32df27f">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="9f6693d5534d57f0eb35ee6b9bb87a3552562865">
+        <td class="sourcedoc-section section-signature">
+          <code>chainProvider: <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chainprovider">ChainProvider</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a055021f7f605ba3d6fe28b1b29596cf547db54d">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="87a977b3afbc5472b3dbd724524fdbda14fcd8d5">
+      
+      <h3 class="sourcedoc-section element-name">updateChainUrl</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>suspend fun updateChainUrl(chainId: String, chainUrl: String)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c937613c54a95f987f2d1610b6ce1f921cfa98c4">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="7ad5e54ebe77fbd0a4f62ae61be0645185495ead">
+        <td class="sourcedoc-section section-signature">
+          <code>chainId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="cd1ea329e86fafbd2a56781950522a4351afd407">
+        <td class="sourcedoc-section section-signature">
+          <code>chainUrl: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="83eec27840bee8d09ab5ef8972c501abed89da37">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="1f2fa6a52fc46a8aad173b0ed2cdc97de61ff8fb">
+      
+      <h3 class="sourcedoc-section element-name">updateHyperionHistoryUrl</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>suspend fun updateHyperionHistoryUrl(chainId: String, hyperionHistory: String)</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="d8b79a21828e28e9c4056c62e7b812f16fc0509c">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="7ad5e54ebe77fbd0a4f62ae61be0645185495ead">
+        <td class="sourcedoc-section section-signature">
+          <code>chainId: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="eb50ce1d49d8bffef726059d3ce6038746835a9e">
+        <td class="sourcedoc-section section-signature">
+          <code>hyperionHistory: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="dc34cecb8df5288c5179fcd5748063d52365bb40">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="248c944faefba4b486488f97b909abded711b0ec">
+      
+      <h3 class="sourcedoc-section element-name">fetchChainProvider</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>suspend fun fetchChainProvider(protonChainUrl: String): Response<JsonObject>&lt;JsonObject&gt;</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="ddc823467f90ebc5a5ca16c65998faf990cf8c6f">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="3cde54a87b87b329f11bc557baf1a29fa0e7acfa">
+        <td class="sourcedoc-section section-signature">
+          <code>protonChainUrl: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="f51302072c6f95541853c0a6d7608761fcbb3a83">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b458c98a8a9044ff028301360fb8043180c8b6f4">
+        <td class="sourcedoc-section section-signature">
+          <code>Response<JsonObject>&lt;JsonObject&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="236a5fdefc2224bf72223541106f412d834bf1a3">
+      
+      <h3 class="sourcedoc-section element-name">fetchKYCProviders</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>suspend fun fetchKYCProviders(chainUrl: String, kycProvidersTableScope: String, kycProvidersTableCode: String, kycProvidersTableName: String): Response<JsonObject>&lt;JsonObject&gt;</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="e13ceb879bb1795500b54ffd6fc7c1db92ef79c4">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd1ea329e86fafbd2a56781950522a4351afd407">
+        <td class="sourcedoc-section section-signature">
+          <code>chainUrl: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="cdae57e260f10e871344f50463226b85234edf48">
+        <td class="sourcedoc-section section-signature">
+          <code>kycProvidersTableScope: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="38c4174944094e8a5c8abd8675e365e99ec106d5">
+        <td class="sourcedoc-section section-signature">
+          <code>kycProvidersTableCode: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="d0ca60ea21e2b9167b8bda0d7664b267dd4ca43b">
+        <td class="sourcedoc-section section-signature">
+          <code>kycProvidersTableName: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="7845c402c5d1894c5b5a4d6ae50c00b94b5ba434">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b458c98a8a9044ff028301360fb8043180c8b6f4">
+        <td class="sourcedoc-section section-signature">
+          <code>Response<JsonObject>&lt;JsonObject&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="aaff237bd6f661cb89cb2ce88c5547c584f97eac">
+      
+      <h3 class="sourcedoc-section element-name">getChainProvider</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>suspend fun getChainProvider(id: String): <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chainprovider">ChainProvider</a></code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="563824827f2a8f30889ffab63db71c113a17e08c">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="e1f6ec0980aa862c68cbaa8110e74551ae83ddd6">
+        <td class="sourcedoc-section section-signature">
+          <code>id: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c8000575c90aa14e09f8fbbf391175c6dd9a5ed2">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="962a18350d7ff27f12428c3840b564dd0b71aa71">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chainprovider">ChainProvider</a></code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="271cb4974a2898c0172f639086369b5062628a6e">
+      
+      <h3 class="sourcedoc-section element-name">getChainInfo</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>suspend fun getChainInfo(chainUrl: String): Response<ChainInfo>&lt;<a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chaininfo">ChainInfo</a>&gt;</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="3c18c430144ed03371b65f366bdb3822fb311721">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd1ea329e86fafbd2a56781950522a4351afd407">
+        <td class="sourcedoc-section section-signature">
+          <code>chainUrl: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="15dec52781058a3d0179abf9b235a81d21a37b1b">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f750c5cf428d65e60c8686d06dbbc284423ea1cc">
+        <td class="sourcedoc-section section-signature">
+          <code>Response<ChainInfo>&lt;<a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chaininfo">ChainInfo</a>&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="5c6d35790f5c0bb34ba99df5450a2d37ee316d45">
+      
+      <h3 class="sourcedoc-section element-name">getHealth</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>suspend fun getHealth(chainUrl: String): Response<JsonObject>&lt;JsonObject&gt;</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="3a9b8cd36e7115456ee512c1e249913ea086931e">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd1ea329e86fafbd2a56781950522a4351afd407">
+        <td class="sourcedoc-section section-signature">
+          <code>chainUrl: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c95a40a9073d2db5e4f174c14d527fd204a91ff3">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b458c98a8a9044ff028301360fb8043180c8b6f4">
+        <td class="sourcedoc-section section-signature">
+          <code>Response<JsonObject>&lt;JsonObject&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="99ada65a86102d613e4cd94ac7f1945383fce043">
+      
+      <h3 class="sourcedoc-section element-name">getAbi</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>suspend fun getAbi(chainUrl: String, accountName: String): Response<JsonObject>&lt;JsonObject&gt;</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="04903551bd3719bf478c5f4cc66c393b66b3e190">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd1ea329e86fafbd2a56781950522a4351afd407">
+        <td class="sourcedoc-section section-signature">
+          <code>chainUrl: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="42167a7774462fcb3afd9f1260f94536820a9126">
+        <td class="sourcedoc-section section-signature">
+          <code>accountName: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c30176ef66eb6048b09d664400fcd430faf7db19">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b458c98a8a9044ff028301360fb8043180c8b6f4">
+        <td class="sourcedoc-section section-signature">
+          <code>Response<JsonObject>&lt;JsonObject&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="8bd1d87a03b6e189c0111275dd9e71d58fa6215d">
+      
+      <h3 class="sourcedoc-section element-name">getTableRows</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>suspend fun getTableRows(chainUrl: String, scope: String, code: String, name: String, lowerBound: String, upperBound: String, limit: Long, indexPosition: String, reverse: Boolean): Response<JsonObject>&lt;JsonObject&gt;</code>
+      </p>
+
+      
+
+      <div class="sourcedoc-section section-comments"></div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="5d7b9f710f42a361c7b84f94b3cb37dac0d43b95">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="cd1ea329e86fafbd2a56781950522a4351afd407">
+        <td class="sourcedoc-section section-signature">
+          <code>chainUrl: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="e02c5e8046cb6d1d56c725089ba9ec2e71229f78">
+        <td class="sourcedoc-section section-signature">
+          <code>scope: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="126f90f34baae842c7268a41fb07c53206f8f405">
+        <td class="sourcedoc-section section-signature">
+          <code>code: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="cf7d76aa18f0e598757d79a8a9df09d9c2aad977">
+        <td class="sourcedoc-section section-signature">
+          <code>name: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="2358b7b0853d224802a6859ef4d54854517e2976">
+        <td class="sourcedoc-section section-signature">
+          <code>lowerBound: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="485d39a4a95ab8b7ac57be10eb1da71ef634d2a5">
+        <td class="sourcedoc-section section-signature">
+          <code>upperBound: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="c4aad477d7751d58b23fbc4bd1cc8624260b0773">
+        <td class="sourcedoc-section section-signature">
+          <code>limit: Long</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="8d03028428e2cf0943e009c9a88df75bf4ce37fd">
+        <td class="sourcedoc-section section-signature">
+          <code>indexPosition: String</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="5a63cda55fe0c1414d7ba85c33ff103174e8f331">
+        <td class="sourcedoc-section section-signature">
+          <code>reverse: Boolean</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="adbbfe67c41adf49ce606cb0392451e49136c56f">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="b458c98a8a9044ff028301360fb8043180c8b6f4">
+        <td class="sourcedoc-section section-signature">
+          <code>Response<JsonObject>&lt;JsonObject&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+</div>
+
+
+
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+                    </article>
+                </section>
+            
+        </div>
+        <hr>
+
+        <!-- Page Footer -->
+        <div class="inner">
+    <footer id="footer">
+        <div class="clearfix">
+            
+            
+        </div>
+    </footer>
+</div>
+
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+    <div class="inner">
+
+        <!-- Search -->
+        <section id="search" class="alt">
+            <form data-orchid-search="">
+                <input type="text" name="query" id="query" placeholder="Search"/>
+            </form>
+            <div class="box" id="search-results" data-orchid-search-results style="display: none;">
+                <b>Search Results</b>
+                <ul></ul>
+            </div>
+            <div class="box" id="search-progress" data-orchid-search-progress style="display: none;">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <nav id="siteNav" class="menu">
+            <header class="major">
+                <h2>Proton Kotlin SDK</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    
+    <li>
+        <a class="subheader">API Docs</a>
+    </li>
+    
+
+                
+                    
+    <li>
+        <span class="opener">Classes</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/account">Account</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/accountbody">AccountBody</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountcontact">AccountContact</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/accountcontactdao">AccountContactDao</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/accountcontactrepository">AccountContactRepository</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountcpulimit">AccountCpuLimit</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/accountdao">AccountDao</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/accountmodule">AccountModule</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountnetlimit">AccountNetLimit</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountpermission">AccountPermission</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountpermissionkey">AccountPermissionKey</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountpermissionrequiredauth">AccountPermissionRequiredAuth</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountrefundsxprinfo">AccountRefundsXPRInfo</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/accountrepository">AccountRepository</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountselfdelegatedbandwidth">AccountSelfDelegatedBandwidth</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accounttotalresources">AccountTotalResources</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountvoterinfo">AccountVoterInfo</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountvotersxprinfo">AccountVotersXPRInfo</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain/action">Action</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/action">Action</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/actiondao">ActionDao</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/actionrepository">ActionRepository</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/actiontrace">ActionTrace</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/actiontraceact">ActionTraceAct</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/actiontraceactauthorization">ActionTraceActAuthorization</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/actiontraceactdata">ActionTraceActData</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/actionsmodule">ActionsModule</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/activeaccount">ActiveAccount</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/base58">Base58</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/bitutils">BitUtils</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/protoncomponent/builder">Builder</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/activeaccount/builder">Builder</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/cancelauthorizeesrbody">CancelAuthorizeESRBody</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chainaccount">ChainAccount</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chaininfo">ChainInfo</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chainprovider">ChainProvider</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/chainproviderdao">ChainProviderDao</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/chainprovidermodule">ChainProviderModule</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/chainproviderrepository">ChainProviderRepository</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chainurlinfo">ChainUrlInfo</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/childworkerfactory">ChildWorkerFactory</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/proton/companion">Companion</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain/packedtransaction/compresstype">CompressType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/cryptutil">CryptUtil</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/currencybalance">CurrencyBalance</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/currencybalancerepository">CurrencyBalanceRepository</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/currencybalancesmodule">CurrencyBalancesModule</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/curveparam">CurveParam</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/daggerinjector">DaggerInjector</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/defaulttypeconverters">DefaultTypeConverters</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/digest/ripemd160/digest">Digest</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/eoserror">EOSError</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/eoserrordetail">EOSErrorDetail</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/eosservererror">EOSServerError</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/eostypeconverters">EOSTypeConverters</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/esraction">ESRAction</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/esrcallbackservice">ESRCallbackService</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/esrrepository">ESRRepository</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/esrsession">ESRSession</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/esrsessiondao">ESRSessionDao</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/esrsessionmessage">ESRSessionMessage</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/eccurve">EcCurve</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/ecdsa">EcDsa</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/ecfieldelement">EcFieldElement</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/ecpoint">EcPoint</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/ecsignature">EcSignature</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/ectools">EcTools</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eosbytereader">EosByteReader</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eosbytewriter">EosByteWriter</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/eosecutil">EosEcUtil</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/eosprivatekey">EosPrivateKey</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/eospublickey">EosPublicKey</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostransfer">EosTransfer</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostype">EosType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/securestorage/securestorageexception/exceptiontype">ExceptionType</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/initchainproviderworker/factory">Factory</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/inittokencontractsworker/factory">Factory</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/initchainurlstatsworker/factory">Factory</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/initactiveaccountworker/factory">Factory</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/digest/generaldigest">GeneralDigest</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/gsoneostypeadapterfactory">GsonEosTypeAdapterFactory</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/hexutils">HexUtils</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/hmac">Hmac</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/eospublickey/illegaleospubkeyformatexception">IllegalEosPubkeyFormatException</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/initactiveaccountworker">InitActiveAccountWorker</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/initchainproviderworker">InitChainProviderWorker</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/initchainurlstatsworker">InitChainUrlStatsWorker</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/inittokencontractsworker">InitTokenContractsWorker</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostype/insufficientbytesexception">InsufficientBytesException</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/jsontobinbody">JsonToBinBody</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/jsontobinresponse">JsonToBinResponse</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/kycprovider">KYCProvider</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/keyaccount">KeyAccount</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/securestorage/prngfixes/linuxprngsecurerandom">LinuxPRNGSecureRandom</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/prngfixes/linuxprngsecurerandom">LinuxPRNGSecureRandom</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/securestorage/prngfixes">PRNGFixes</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/prngfixes">PRNGFixes</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain/packedtransaction">PackedTransaction</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostype/packer">Packer</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/prefs">Prefs</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/proton">Proton</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/protonchainservice">ProtonChainService</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/protonchainstatsservice">ProtonChainStatsService</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/protoncomponent">ProtonComponent</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/protondb">ProtonDb</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/protonesr">ProtonESR</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/protonerror">ProtonError</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/protonexception">ProtonException</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/protonmodule">ProtonModule</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/protontypeconverters">ProtonTypeConverters</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/protonworkerfactory">ProtonWorkerFactory</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostype/reader">Reader</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/refvalue">RefValue</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/requiredkeysbody">RequiredKeysBody</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/requiredkeysresponse">RequiredKeysResponse</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/resource">Resource</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/digest/ripemd160">Ripemd160</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/securekeys">SecureKeys</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/securestorage/securepreferences">SecurePreferences</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/securestorage/securestorageexception">SecureStorageException</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/digest/sha256">Sha256</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/digest/sha512">Sha512</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain/signedtransaction">SignedTransaction</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/singletonholder">SingletonHolder</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/status">Status</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/stringutils">StringUtils</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/swappool">SwapPool</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/swappoolasset">SwapPoolAsset</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/swappooldata">SwapPoolData</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/swappoolfee">SwapPoolFee</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/tablerowsbody">TableRowsBody</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/tablerowsindexposition">TableRowsIndexPosition</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/tokencontract">TokenContract</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/tokencontractdao">TokenContractDao</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/tokencontractrate">TokenContractRate</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/tokencontractrepository">TokenContractRepository</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/tokencontractsmodule">TokenContractsModule</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/tokencurrencybalance">TokenCurrencyBalance</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain/transaction">Transaction</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain/transactionheader">TransactionHeader</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/type">Type</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typeaccountname">TypeAccountName</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typeactionname">TypeActionName</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typeasset">TypeAsset</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typechainid">TypeChainId</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typename">TypeName</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/gsoneostypeadapterfactory/typenameadapter">TypeNameAdapter</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typepermissionlevel">TypePermissionLevel</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typepermissionname">TypePermissionName</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typescopename">TypeScopeName</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typesymbol">TypeSymbol</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostype/unpacker">Unpacker</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/usernamebody">UserNameBody</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/utils">Utils</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/workerassistedmodule">WorkerAssistedModule</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/workerkey">WorkerKey</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/workermodule">WorkerModule</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workersmodule">WorkersModule</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostype/writer">Writer</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+                    
+    <li>
+        <span class="opener">Packages</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk">com.metallicus.protonsdk</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api">com.metallicus.protonsdk.api</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common">com.metallicus.protonsdk.common</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db">com.metallicus.protonsdk.db</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di">com.metallicus.protonsdk.di</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander">com.metallicus.protonsdk.eosio.commander</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/digest">com.metallicus.protonsdk.eosio.commander.digest</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec">com.metallicus.protonsdk.eosio.commander.ec</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain">com.metallicus.protonsdk.eosio.commander.model.chain</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types">com.metallicus.protonsdk.eosio.commander.model.types</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model">com.metallicus.protonsdk.model</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository">com.metallicus.protonsdk.repository</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/securestorage">com.metallicus.protonsdk.securestorage</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers">com.metallicus.protonsdk.workers</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+        <nav class="menu">
+            <header class="major">
+                <h2>ChainProviderRepository</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    <li>
+        <span class="opener">Constructors</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#609fd1c9e1a43656949584c072ff20b570bbef36">constructor(chainProviderDao: ChainProviderDao, protonChainService: ProtonChainService, protonChainStatsService: ProtonChainStatsService)</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+                    
+    <li>
+        <span class="opener">Methods</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#7493c684412ae936c2f4ce4b8bccb70c19d811ed">suspend fun removeAll()</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#c76088cb1be9ab97baa99e2734c42b4d34ee059e">suspend fun addChainProvider(chainProvider: ChainProvider)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#9f8b20cb6d999f8e3261bc133ff4f9fcf4b6be64">suspend fun updateChainProvider(chainProvider: ChainProvider)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#87a977b3afbc5472b3dbd724524fdbda14fcd8d5">suspend fun updateChainUrl(chainId: String, chainUrl: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#1f2fa6a52fc46a8aad173b0ed2cdc97de61ff8fb">suspend fun updateHyperionHistoryUrl(chainId: String, hyperionHistory: String)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#248c944faefba4b486488f97b909abded711b0ec">suspend fun fetchChainProvider(protonChainUrl: String): Response&lt;JsonObject&gt;&lt;JsonObject&gt;</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#236a5fdefc2224bf72223541106f412d834bf1a3">suspend fun fetchKYCProviders(chainUrl: String, kycProvidersTableScope: String, kycProvidersTableCode: String, kycProvidersTableName: String): Response&lt;JsonObject&gt;&lt;JsonObject&gt;</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#aaff237bd6f661cb89cb2ce88c5547c584f97eac">suspend fun getChainProvider(id: String): ChainProvider</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#271cb4974a2898c0172f639086369b5062628a6e">suspend fun getChainInfo(chainUrl: String): Response&lt;ChainInfo&gt;&lt;ChainInfo&gt;</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#5c6d35790f5c0bb34ba99df5450a2d37ee316d45">suspend fun getHealth(chainUrl: String): Response&lt;JsonObject&gt;&lt;JsonObject&gt;</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#99ada65a86102d613e4cd94ac7f1945383fce043">suspend fun getAbi(chainUrl: String, accountName: String): Response&lt;JsonObject&gt;&lt;JsonObject&gt;</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#8bd1d87a03b6e189c0111275dd9e71d58fa6215d">suspend fun getTableRows(chainUrl: String, scope: String, code: String, name: String, lowerBound: String, upperBound: String, limit: Long, indexPosition: String, reverse: Boolean): Response&lt;JsonObject&gt;&lt;JsonObject&gt;</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+
+        <!-- Section -->
+        <section>
+            <p class="text-center">
+                Currently 1.0.5. Created with <a href="https://orchid.run">Orchid </a> and <b>Orchid Editorial Theme</b>.
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright text-center">&copy; Proton Kotlin SDK. All rights reserved.<br>Design by <a href="https://html5up.net">HTML5 UP</a></p>
+        </footer>
+
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+
+    <!-- start:inject meta-components [bodyEnd] -->
+    
+
+        
+            
+        
+
+        
+    
+    <!-- end:inject meta-components [bodyEnd] -->
+
+
+
+    <!-- start:inject meta-components [bodyEnd] -->
+    
+    <!-- end:inject meta-components [bodyEnd] -->
+
+
+
+
+<!-- start:inject scripts -->
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+<script  src="https://protonprotocol.github.io/ProtonKotlin/Editorial/f1760af0/assets/js/editorial_util.js"></script>
+<script  src="https://protonprotocol.github.io/ProtonKotlin/Editorial/f1760af0/assets/js/editorial_main.js"></script>
+<script  src="https://protonprotocol.github.io/ProtonKotlin/Editorial/f1760af0/assets/js/editorial_orchidCustomizations.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script  src="https://unpkg.com/lunr/lunr.js"></script>
+<script  src="https://protonprotocol.github.io/ProtonKotlin/assets/js/orchidSearch.js"></script>
+<!-- end:inject scripts -->
+
+
+</body>
+</html>

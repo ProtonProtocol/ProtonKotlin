@@ -1,0 +1,2859 @@
+{
+  "ownKey": "index",
+  "childrenPages": {"kotlindoc": {
+    "ownKey": "kotlindoc",
+    "childrenPages": {"com": {
+      "ownKey": "com",
+      "childrenPages": {"metallicus": {
+        "ownKey": "metallicus",
+        "childrenPages": {"protonsdk": {
+          "ownKey": "protonsdk",
+          "childrenPages": {
+            "currencybalancesmodule": {
+              "ownKey": "currencybalancesmodule",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/currencybalancesmodule",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/currencybalancesmodule"
+                },
+                "description": "",
+                "title": "CurrencyBalancesModule",
+                "content": "<p>Helper class used for  CurrencyBalance  based operations<\/p>context\n<p>tokenContractRepository<\/p>\n<p>currencyBalanceRepository<\/p>\n<p><init><\/p>\n<p>Helper class used for  CurrencyBalance  based operations<\/p>\ngetTokenCurrencyBalance\n<p>getTokenCurrencyBalances<\/p>\n"
+              }]
+            },
+            "tokencontractsmodule": {
+              "ownKey": "tokencontractsmodule",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/tokencontractsmodule",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/tokencontractsmodule"
+                },
+                "description": "",
+                "title": "TokenContractsModule",
+                "content": "<p>Helper class used for  TokenContract  based operations<\/p>context\n<p>tokenContractRepository<\/p>\n<p>prefs<\/p>\n<p><init><\/p>\n<p>Helper class used for  TokenContract  based operations<\/p>\ngetTokenContract\n<p>getTokenContracts<\/p>\n<p>updateExchangeRates<\/p>\n"
+              }]
+            },
+            "di": {
+              "ownKey": "di",
+              "childrenPages": {
+                "workerkey": {
+                  "ownKey": "workerkey",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/di/workerkey",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/workerkey"
+                    },
+                    "description": "",
+                    "title": "WorkerKey",
+                    "content": "<p>value<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "workerassistedmodule": {
+                  "ownKey": "workerassistedmodule",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/di/workerassistedmodule",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/workerassistedmodule"
+                    },
+                    "description": "",
+                    "title": "WorkerAssistedModule",
+                    "content": ""
+                  }]
+                },
+                "protonmodule": {
+                  "ownKey": "protonmodule",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/di/protonmodule",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/protonmodule"
+                    },
+                    "description": "",
+                    "title": "ProtonModule",
+                    "content": "<p><init><\/p>\n<p>provideDb<\/p>\n<p>provideChainProviderDao<\/p>\n<p>provideTokenContractDao<\/p>\n<p>provideAccountDao<\/p>\n<p>provideActionDao<\/p>\n<p>provideESRSessionDao<\/p>\n<p>provideProtonChainStatsService<\/p>\n<p>provideProtonChainService<\/p>\n<p>provideESRCallbackService<\/p>\n<p>providePrefs<\/p>\n<p>provideSecureKeys<\/p>\n"
+                  }]
+                },
+                "workermodule": {
+                  "ownKey": "workermodule",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/di/workermodule",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/workermodule"
+                    },
+                    "description": "",
+                    "title": "WorkerModule",
+                    "content": "<p><init><\/p>\n<p>bindInitChainProvidersWorker<\/p>\n<p>bindInitTokenContractsWorker<\/p>\n<p>bindInitActiveAccountWorker<\/p>\n<p>bindInitChainUrlStatsWorker<\/p>\n<p>bindWorkerFactory<\/p>\n"
+                  }]
+                },
+                "daggerinjector": {
+                  "ownKey": "daggerinjector",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/di/daggerinjector",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/daggerinjector"
+                    },
+                    "description": "",
+                    "title": "DaggerInjector",
+                    "content": "<p><init><\/p>\n<p>DaggerInjector<\/p>\n"
+                  }]
+                },
+                "protoncomponent": {
+                  "ownKey": "protoncomponent",
+                  "childrenPages": {"builder": {
+                    "ownKey": "builder",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/di/protoncomponent/builder",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/protoncomponent/builder"
+                      },
+                      "description": "",
+                      "title": "Builder",
+                      "content": "<p>context<\/p>\n<p>build<\/p>\n"
+                    }]
+                  }},
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/di/protoncomponent",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di/protoncomponent"
+                    },
+                    "description": "",
+                    "title": "ProtonComponent",
+                    "content": "<p>inject<\/p>\n<p>inject<\/p>\n<p>inject<\/p>\n<p>inject<\/p>\n<p>inject<\/p>\n<p>inject<\/p>\n<p>inject<\/p>\n"
+                  }]
+                }
+              },
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/di",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/di"
+                },
+                "description": "",
+                "title": "com.metallicus.protonsdk.di",
+                "content": "<p>DaggerInjector<\/p>\n<p>ProtonComponent<\/p>\n<p>ProtonModule<\/p>\n<p>WorkerAssistedModule<\/p>\n<p>WorkerKey<\/p>\n<p>WorkerModule<\/p>\n"
+              }]
+            },
+            "chainprovidermodule": {
+              "ownKey": "chainprovidermodule",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/chainprovidermodule",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/chainprovidermodule"
+                },
+                "description": "",
+                "title": "ChainProviderModule",
+                "content": "<p>Helper class used for  ChainProvider  based operations<\/p>context\n<p>chainProviderRepository<\/p>\n<p>prefs<\/p>\n<p><init><\/p>\n<p>Helper class used for  ChainProvider  based operations<\/p>\ngetActiveChainProvider\n<p>updateChainProvider<\/p>\n<p>updateChainUrl<\/p>\n<p>updateHyperionHistoryUrl<\/p>\n<p>getTableRows<\/p>\n"
+              }]
+            },
+            "repository": {
+              "ownKey": "repository",
+              "childrenPages": {
+                "accountcontactrepository": {
+                  "ownKey": "accountcontactrepository",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/repository/accountcontactrepository",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/accountcontactrepository"
+                    },
+                    "description": "",
+                    "title": "AccountContactRepository",
+                    "content": "<p><init><\/p>\n<p>fetchAccountContact<\/p>\n<p>fetchAccountVotersXPRInfo<\/p>\n<p>fetchAccountRefundsXPRInfo<\/p>\n"
+                  }]
+                },
+                "esrrepository": {
+                  "ownKey": "esrrepository",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/repository/esrrepository",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/esrrepository"
+                    },
+                    "description": "",
+                    "title": "ESRRepository",
+                    "content": "<p><init><\/p>\n<p>cancelAuthorizeESR<\/p>\n<p>authorizeESR<\/p>\n<p>getESRSession<\/p>\n<p>getESRSessions<\/p>\n<p>addESRSession<\/p>\n<p>updateESRSession<\/p>\n<p>removeESRSession<\/p>\n<p>removeAllESRSessions<\/p>\n"
+                  }]
+                },
+                "tokencontractrepository": {
+                  "ownKey": "tokencontractrepository",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/repository/tokencontractrepository",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/tokencontractrepository"
+                    },
+                    "description": "",
+                    "title": "TokenContractRepository",
+                    "content": "<p><init><\/p>\n<p>removeAll<\/p>\n<p>addTokenContract<\/p>\n<p>fetchTokenContracts<\/p>\n<p>getTokenContract<\/p>\n<p>getTokenContracts<\/p>\n<p>fetchExchangeRates<\/p>\n<p>updateRates<\/p>\n"
+                  }]
+                },
+                "currencybalancerepository": {
+                  "ownKey": "currencybalancerepository",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/repository/currencybalancerepository",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/currencybalancerepository"
+                    },
+                    "description": "",
+                    "title": "CurrencyBalanceRepository",
+                    "content": "<p><init><\/p>\n<p>fetchCurrencyBalances<\/p>\n"
+                  }]
+                },
+                "actionrepository": {
+                  "ownKey": "actionrepository",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/repository/actionrepository",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/actionrepository"
+                    },
+                    "description": "",
+                    "title": "ActionRepository",
+                    "content": "<p><init><\/p>\n<p>addAction<\/p>\n<p>fetchAccountTokenActions<\/p>\n<p>getAccountSystemTokenActions<\/p>\n<p>getAccountTokenActions<\/p>\n<p>jsonToBin<\/p>\n<p>getRequiredKeys<\/p>\n<p>pushTransaction<\/p>\n"
+                  }]
+                },
+                "accountrepository": {
+                  "ownKey": "accountrepository",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/repository/accountrepository",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/accountrepository"
+                    },
+                    "description": "",
+                    "title": "AccountRepository",
+                    "content": "<p><init><\/p>\n<p>removeAll<\/p>\n<p>addAccount<\/p>\n<p>updateAccount<\/p>\n<p>updateAccountName<\/p>\n<p>updateAccountAvatar<\/p>\n<p>getChainAccount<\/p>\n<p>fetchKeyAccount<\/p>\n<p>fetchAccount<\/p>\n"
+                  }]
+                },
+                "chainproviderrepository": {
+                  "ownKey": "chainproviderrepository",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/repository/chainproviderrepository",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository/chainproviderrepository"
+                    },
+                    "description": "",
+                    "title": "ChainProviderRepository",
+                    "content": "<p><init><\/p>\n<p>removeAll<\/p>\n<p>addChainProvider<\/p>\n<p>updateChainProvider<\/p>\n<p>updateChainUrl<\/p>\n<p>updateHyperionHistoryUrl<\/p>\n<p>fetchChainProvider<\/p>\n<p>fetchKYCProviders<\/p>\n<p>getChainProvider<\/p>\n<p>getChainInfo<\/p>\n<p>getHealth<\/p>\n<p>getAbi<\/p>\n<p>getTableRows<\/p>\n"
+                  }]
+                }
+              },
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/repository",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/repository"
+                },
+                "description": "",
+                "title": "com.metallicus.protonsdk.repository",
+                "content": "<p>AccountContactRepository<\/p>\n<p>AccountRepository<\/p>\n<p>ActionRepository<\/p>\n<p>ChainProviderRepository<\/p>\n<p>CurrencyBalanceRepository<\/p>\n<p>ESRRepository<\/p>\n<p>TokenContractRepository<\/p>\n"
+              }]
+            },
+            "eosio": {
+              "ownKey": "eosio",
+              "childrenPages": {"commander": {
+                "ownKey": "commander",
+                "childrenPages": {
+                  "refvalue": {
+                    "ownKey": "refvalue",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/eosio/commander/refvalue",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/refvalue"
+                      },
+                      "description": "",
+                      "title": "RefValue",
+                      "content": "<p>Created by swapnibble on 2017-09-28.<\/p>data\n<p><init><\/p>\n<p><init><\/p>\n"
+                    }]
+                  },
+                  "hexutils": {
+                    "ownKey": "hexutils",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/eosio/commander/hexutils",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/hexutils"
+                      },
+                      "description": "",
+                      "title": "HexUtils",
+                      "content": "<p>Utilities for going to and from ASCII-HEX representation.<\/p><init>\n<p>Utilities for going to and from ASCII-HEX representation.<\/p>\ntoHex\n<p>Encodes an array of bytes as hex symbols.<\/p>\ntoHex\n<p>Encodes an array of bytes as hex symbols.<\/p>\ntoHex\n<p>Encodes an array of bytes as hex symbols.<\/p>\ntoHex\n<p>Encodes a single byte to hex symbols.<\/p>\ntoHex\n<p>Encodes an array of bytes as hex symbols.<\/p>\ntoBytes\n<p>Get the byte representation of an ASCII-HEX string.<\/p>\ntoBytesReversed\n\nappendByteAsHex\n\n"
+                    }]
+                  },
+                  "gsoneostypeadapterfactory": {
+                    "ownKey": "gsoneostypeadapterfactory",
+                    "childrenPages": {"typenameadapter": {
+                      "ownKey": "typenameadapter",
+                      "ownPages": [{
+                        "reference": {
+                          "path": "kotlindoc",
+                          "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                          "fileName": "com/metallicus/protonsdk/eosio/commander/gsoneostypeadapterfactory/typenameadapter",
+                          "extension": "html",
+                          "usePrettyUrl": true,
+                          "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/gsoneostypeadapterfactory/typenameadapter"
+                        },
+                        "description": "",
+                        "title": "TypeNameAdapter",
+                        "content": "<p><init><\/p>\n<p>write<\/p>\n<p>read<\/p>\n"
+                      }]
+                    }},
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/eosio/commander/gsoneostypeadapterfactory",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/gsoneostypeadapterfactory"
+                      },
+                      "description": "",
+                      "title": "GsonEosTypeAdapterFactory",
+                      "content": "<p>Created by swapnibble on 2018-04-04.<\/p><init>\n<p>Created by swapnibble on 2018-04-04.<\/p>\ncreate\n\n"
+                    }]
+                  },
+                  "stringutils": {
+                    "ownKey": "stringutils",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/eosio/commander/stringutils",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/stringutils"
+                      },
+                      "description": "",
+                      "title": "StringUtils",
+                      "content": "<p><init><\/p>\n<p>isEmpty<\/p>\n"
+                    }]
+                  },
+                  "base58": {
+                    "ownKey": "base58",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/eosio/commander/base58",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/base58"
+                      },
+                      "description": "",
+                      "title": "Base58",
+                      "content": "<p> Base58 is a way to encode Bitcoin addresses as numbers and letters. Note that this is not the same base58 as used by Flickr, which you may see reference to around the internet. <\/p> <p> Satoshi says: why base-58 instead of standard base-64 encoding? <\/p><p> <\/p><ul> <li>Don't want 0OIl characters that look the same in some fonts and could be used to create visually identical looking account numbers.<\/li> <li>A string with non-alphanumeric characters is not as easily accepted as an account number.<\/li> <li>E-mail usually won't line-break if there's no punctuation to break at.<\/li> <li>Doubleclicking selects the whole number as one word if it's all alphanumeric.<\/li> <\/ul>ALPHABET\n<p><init><\/p>\n<p> Base58 is a way to encode Bitcoin addresses as numbers and letters. Note that this is not the same base58 as used by Flickr, which you may see reference to around the internet. <\/p> <p> Satoshi says: why base-58 instead of standard base-64 encoding? <\/p><p> <\/p><ul> <li>Don't want 0OIl characters that look the same in some fonts and could be used to create visually identical looking account numbers.<\/li> <li>A string with non-alphanumeric characters is not as easily accepted as an account number.<\/li> <li>E-mail usually won't line-break if there's no punctuation to break at.<\/li> <li>Doubleclicking selects the whole number as one word if it's all alphanumeric.<\/li> <\/ul>\nencode\n<p>Encodes the given bytes in base58. No checksum is appended.<\/p>\ndecode\n<p>decode<\/p>\n<p>decodeToBigInteger<\/p>\n"
+                    }]
+                  },
+                  "utils": {
+                    "ownKey": "utils",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/eosio/commander/utils",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/utils"
+                      },
+                      "description": "",
+                      "title": "Utils",
+                      "content": "<p>Created by swapnibble on 2017-10-18.<\/p><init>\n<p>Created by swapnibble on 2017-10-18.<\/p>\ncloseSilently\n\nparseLongSafely\n\nparseIntSafely\n\nprettyPrintJson\n\n"
+                    }]
+                  },
+                  "hmac": {
+                    "ownKey": "hmac",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/eosio/commander/hmac",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/hmac"
+                      },
+                      "description": "",
+                      "title": "Hmac",
+                      "content": "<p><init><\/p>\n<p>hmacSha256<\/p>\n<p>hmacSha512<\/p>\n<p>testTestVectors<\/p>\n<p>Run test vectors from RFC-4231<\/p>\n"
+                    }]
+                  },
+                  "cryptutil": {
+                    "ownKey": "cryptutil",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/eosio/commander/cryptutil",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/cryptutil"
+                      },
+                      "description": "",
+                      "title": "CryptUtil",
+                      "content": "<p>Created by swapnibble on 2017-08-09.<\/p><init>\n<p>Created by swapnibble on 2017-08-09.<\/p>\naesEncrypt\n\naesDecrypt\n\n"
+                    }]
+                  },
+                  "digest": {
+                    "ownKey": "digest",
+                    "childrenPages": {
+                      "sha256": {
+                        "ownKey": "sha256",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/digest/sha256",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/digest/sha256"
+                          },
+                          "description": "",
+                          "title": "Sha256",
+                          "content": "<p>represents the result of a SHA256 hashing operation prefer to use the static factory methods.<\/p>HASH_LENGTH\n<p>ZERO_HASH<\/p>\n<p><init><\/p>\n<p>create Sha256 from raw hash bytes.<\/p>\nlength\n<p>equals<\/p>\n<p>toString<\/p>\n<p>equalsFromOffset<\/p>\n<p>getBytes<\/p>\n<p>getSha256Digest<\/p>\n<p>from<\/p>\n<p>from<\/p>\n<p>from<\/p>\n<p>doubleHash<\/p>\n"
+                        }]
+                      },
+                      "sha512": {
+                        "ownKey": "sha512",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/digest/sha512",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/digest/sha512"
+                          },
+                          "description": "",
+                          "title": "Sha512",
+                          "content": "<p>HASH_LENGTH<\/p>\n<p>ZERO_HASH<\/p>\n<p><init><\/p>\n<p>equals<\/p>\n<p>toString<\/p>\n<p>compareTo<\/p>\n<p>getBytes<\/p>\n<p>from<\/p>\n"
+                        }]
+                      },
+                      "generaldigest": {
+                        "ownKey": "generaldigest",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/digest/generaldigest",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/digest/generaldigest"
+                          },
+                          "description": "",
+                          "title": "GeneralDigest",
+                          "content": "<p>base implementation of MD4 family style digest as outlined in \"Handbook of Applied Cryptography\", pages 344 - 347.<\/p><init>\n<p>Standard constructor<\/p>\n<init>\n<p>Copy constructor. We are using copy constructors in place of the Object.clone() interface as this interface is not supported by J2ME.<\/p>\nupdate\n\nupdate\n\nprocessLength\n\nfinish\n\nprocessWord\n\nprocessBlock\n\nreset\n\ngetByteLength\n\n"
+                        }]
+                      },
+                      "ripemd160": {
+                        "ownKey": "ripemd160",
+                        "childrenPages": {"digest": {
+                          "ownKey": "digest",
+                          "ownPages": [{
+                            "reference": {
+                              "path": "kotlindoc",
+                              "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                              "fileName": "com/metallicus/protonsdk/eosio/commander/digest/ripemd160/digest",
+                              "extension": "html",
+                              "usePrettyUrl": true,
+                              "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/digest/ripemd160/digest"
+                            },
+                            "description": "",
+                            "title": "Digest",
+                            "content": "<p><init><\/p>\n<p>Standard constructor<\/p>\nprocessLength\n<p>doFinal<\/p>\n<p>processWord<\/p>\n<p>processBlock<\/p>\n<p>reset<\/p>\n<p>reset the chaining variables to the IV values.<\/p>\n"
+                          }]
+                        }},
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/digest/ripemd160",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/digest/ripemd160"
+                          },
+                          "description": "",
+                          "title": "Ripemd160",
+                          "content": "<p>Created by swapnibble on 2017-09-02.<\/p><init>\n\nbytes\n\nfrom\n\nfrom\n\n"
+                        }]
+                      }
+                    },
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/eosio/commander/digest",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/digest"
+                      },
+                      "description": "",
+                      "title": "com.metallicus.protonsdk.eosio.commander.digest",
+                      "content": "<p>GeneralDigest<\/p>\n<p>base implementation of MD4 family style digest as outlined in \"Handbook of Applied Cryptography\", pages 344 - 347.<\/p>\nSha512\n<p>Sha256<\/p>\n<p>represents the result of a SHA256 hashing operation prefer to use the static factory methods.<\/p>\nRipemd160\n<p>Created by swapnibble on 2017-09-02.<\/p>\n"
+                    }]
+                  },
+                  "model": {
+                    "ownKey": "model",
+                    "childrenPages": {
+                      "types": {
+                        "ownKey": "types",
+                        "childrenPages": {
+                          "typescopename": {
+                            "ownKey": "typescopename",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/typescopename",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typescopename"
+                              },
+                              "description": "",
+                              "title": "TypeScopeName",
+                              "content": "<p>Created by swapnibble on 2018-04-04.<\/p><init>\n\n"
+                            }]
+                          },
+                          "typesymbol": {
+                            "ownKey": "typesymbol",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/typesymbol",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typesymbol"
+                              },
+                              "description": "",
+                              "title": "TypeSymbol",
+                              "content": "<p>Created by swapnibble on 2018-07-11.<\/p>sCoreSymbolString\n<p>sCoreSymbolPrecision<\/p>\n<p><init><\/p>\n<p><init><\/p>\n<p>pack<\/p>\n<p>valid<\/p>\n<p>toString<\/p>\n<p>decimals<\/p>\n<p>name<\/p>\n<p>precision<\/p>\n<p>stringToSymbol<\/p>\n<p>fromString<\/p>\n<p>validName<\/p>\n"
+                            }]
+                          },
+                          "typechainid": {
+                            "ownKey": "typechainid",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/typechainid",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typechainid"
+                              },
+                              "description": "",
+                              "title": "TypeChainId",
+                              "content": "<p>Created by swapnibble on 2017-10-30.<\/p><init>\n\n<init>\n\ngetBytes\n\n"
+                            }]
+                          },
+                          "typeasset": {
+                            "ownKey": "typeasset",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/typeasset",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typeasset"
+                              },
+                              "description": "",
+                              "title": "TypeAsset",
+                              "content": "<p>Created by swapnibble on 2017-09-12.<\/p>MAX_AMOUNT\n<p><init><\/p>\n<p><init><\/p>\n<p><init><\/p>\n<p>pack<\/p>\n<p>toString<\/p>\n<p>decimals<\/p>\n<p>isValid<\/p>\n<p>symbolName<\/p>\n<p>getAmount<\/p>\n<p>precision<\/p>\n<p>isValidAmount<\/p>\n<p>isValidAmount<\/p>\n"
+                            }]
+                          },
+                          "eostype": {
+                            "ownKey": "eostype",
+                            "childrenPages": {
+                              "packer": {
+                                "ownKey": "packer",
+                                "ownPages": [{
+                                  "reference": {
+                                    "path": "kotlindoc",
+                                    "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                    "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/eostype/packer",
+                                    "extension": "html",
+                                    "usePrettyUrl": true,
+                                    "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostype/packer"
+                                  },
+                                  "description": "",
+                                  "title": "Packer",
+                                  "content": "<p>pack<\/p>\n"
+                                }]
+                              },
+                              "unpacker": {
+                                "ownKey": "unpacker",
+                                "ownPages": [{
+                                  "reference": {
+                                    "path": "kotlindoc",
+                                    "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                    "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/eostype/unpacker",
+                                    "extension": "html",
+                                    "usePrettyUrl": true,
+                                    "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostype/unpacker"
+                                  },
+                                  "description": "",
+                                  "title": "Unpacker",
+                                  "content": "<p>unpack<\/p>\n"
+                                }]
+                              },
+                              "insufficientbytesexception": {
+                                "ownKey": "insufficientbytesexception",
+                                "ownPages": [{
+                                  "reference": {
+                                    "path": "kotlindoc",
+                                    "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                    "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/eostype/insufficientbytesexception",
+                                    "extension": "html",
+                                    "usePrettyUrl": true,
+                                    "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostype/insufficientbytesexception"
+                                  },
+                                  "description": "",
+                                  "title": "InsufficientBytesException",
+                                  "content": "<p><init><\/p>\n"
+                                }]
+                              },
+                              "reader": {
+                                "ownKey": "reader",
+                                "ownPages": [{
+                                  "reference": {
+                                    "path": "kotlindoc",
+                                    "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                    "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/eostype/reader",
+                                    "extension": "html",
+                                    "usePrettyUrl": true,
+                                    "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostype/reader"
+                                  },
+                                  "description": "",
+                                  "title": "Reader",
+                                  "content": "<p>getVariableUint<\/p>\n<p>getLongLE<\/p>\n<p>getIntLE<\/p>\n<p>get<\/p>\n<p>getBytes<\/p>\n<p>getString<\/p>\n<p>getShortLE<\/p>\n"
+                                }]
+                              },
+                              "writer": {
+                                "ownKey": "writer",
+                                "ownPages": [{
+                                  "reference": {
+                                    "path": "kotlindoc",
+                                    "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                    "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/eostype/writer",
+                                    "extension": "html",
+                                    "usePrettyUrl": true,
+                                    "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostype/writer"
+                                  },
+                                  "description": "",
+                                  "title": "Writer",
+                                  "content": "<p>putCollection<\/p>\n<p>length<\/p>\n<p>put<\/p>\n<p>putIntLE<\/p>\n<p>putBytes<\/p>\n<p>putShortLE<\/p>\n<p>toBytes<\/p>\n<p>putLongLE<\/p>\n<p>putVariableUInt<\/p>\n<p>putString<\/p>\n"
+                                }]
+                              }
+                            },
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/eostype",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostype"
+                              },
+                              "description": "",
+                              "title": "EosType",
+                              "content": "<p>Created by swapnibble on 2017-09-12.<\/p>\n"
+                            }]
+                          },
+                          "typeaccountname": {
+                            "ownKey": "typeaccountname",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/typeaccountname",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typeaccountname"
+                              },
+                              "description": "",
+                              "title": "TypeAccountName",
+                              "content": "<p>Created by swapnibble on 2017-09-12.<\/p><init>\n\n"
+                            }]
+                          },
+                          "typepermissionname": {
+                            "ownKey": "typepermissionname",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/typepermissionname",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typepermissionname"
+                              },
+                              "description": "",
+                              "title": "TypePermissionName",
+                              "content": "<p>Created by swapnibble on 2017-09-12.<\/p><init>\n\n"
+                            }]
+                          },
+                          "typepermissionlevel": {
+                            "ownKey": "typepermissionlevel",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/typepermissionlevel",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typepermissionlevel"
+                              },
+                              "description": "",
+                              "title": "TypePermissionLevel",
+                              "content": "<p>Created by swapnibble on 2017-09-12.<\/p><init>\n\npack\n\nsetPermission\n\ngetPermission\n\nsetAccount\n\ngetAccount\n\n"
+                            }]
+                          },
+                          "eosbytewriter": {
+                            "ownKey": "eosbytewriter",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/eosbytewriter",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eosbytewriter"
+                              },
+                              "description": "",
+                              "title": "EosByteWriter",
+                              "content": "<p>Created by swapnibble on 2017-09-12.<\/p><init>\n\n<init>\n\nputCollection\n\nlength\n\nput\n\nputIntLE\n\nputBytes\n\nputBytes\n\nputShortLE\n\ntoBytes\n\nputLongLE\n\nputVariableUInt\n\nputString\n\n"
+                            }]
+                          },
+                          "typeactionname": {
+                            "ownKey": "typeactionname",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/typeactionname",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typeactionname"
+                              },
+                              "description": "",
+                              "title": "TypeActionName",
+                              "content": "<p>Created by swapnibble on 2017-09-12.<\/p><init>\n\n<init>\n\n"
+                            }]
+                          },
+                          "eosbytereader": {
+                            "ownKey": "eosbytereader",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/eosbytereader",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eosbytereader"
+                              },
+                              "description": "",
+                              "title": "EosByteReader",
+                              "content": "<p><init><\/p>\n<p><init><\/p>\n<p>getVariableUint<\/p>\n<p>getLongLE<\/p>\n<p>getIntLE<\/p>\n<p>get<\/p>\n<p>getBytes<\/p>\n<p>getString<\/p>\n<p>getShortLE<\/p>\n"
+                            }]
+                          },
+                          "eostransfer": {
+                            "ownKey": "eostransfer",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/eostransfer",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/eostransfer"
+                              },
+                              "description": "",
+                              "title": "EosTransfer",
+                              "content": "<p>Created by swapnibble on 2017-09-15.<\/p><init>\n\n<init>\n\n<init>\n\n<init>\n\npack\n\ngetActivePermission\n\njsonToBinArgs\n\ngetAction\n\ngetAsHex\n\n"
+                            }]
+                          },
+                          "typename": {
+                            "ownKey": "typename",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/types/typename",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types/typename"
+                              },
+                              "description": "",
+                              "title": "TypeName",
+                              "content": "<p>Created by swapnibble on 2017-09-12.<\/p><init>\n\n<init>\n\npack\n\ntoString\n\nstring_to_name\n\nname_to_string\n\n"
+                            }]
+                          }
+                        },
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/model/types",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/types"
+                          },
+                          "description": "",
+                          "title": "com.metallicus.protonsdk.eosio.commander.model.types",
+                          "content": "<p>EosTransfer<\/p>\n<p>Created by swapnibble on 2017-09-15.<\/p>\nTypeName\n<p>Created by swapnibble on 2017-09-12.<\/p>\nEosType\n<p>Created by swapnibble on 2017-09-12.<\/p>\nEosByteReader\n<p>TypeAsset<\/p>\n<p>Created by swapnibble on 2017-09-12.<\/p>\nTypeSymbol\n<p>Created by swapnibble on 2018-07-11.<\/p>\nTypeActionName\n<p>Created by swapnibble on 2017-09-12.<\/p>\nTypeChainId\n<p>Created by swapnibble on 2017-10-30.<\/p>\nEosByteWriter\n<p>Created by swapnibble on 2017-09-12.<\/p>\nTypeAccountName\n<p>Created by swapnibble on 2017-09-12.<\/p>\nTypeScopeName\n<p>Created by swapnibble on 2018-04-04.<\/p>\nTypePermissionLevel\n<p>Created by swapnibble on 2017-09-12.<\/p>\nTypePermissionName\n<p>Created by swapnibble on 2017-09-12.<\/p>\n"
+                        }]
+                      },
+                      "chain": {
+                        "ownKey": "chain",
+                        "childrenPages": {
+                          "action": {
+                            "ownKey": "action",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/chain/action",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain/action"
+                              },
+                              "description": "",
+                              "title": "Action",
+                              "content": "<p>Created by swapnibble on 2017-09-11.<\/p><init>\n\n<init>\n\n<init>\n\n<init>\n\nsetAccount\n\ngetName\n\nsetAuthorization\n\nsetAuthorization\n\nsetAuthorization\n\ngetData\n\nsetData\n\npack\n\nsetName\n\ngetAuthorization\n\ngetAccount\n\n"
+                            }]
+                          },
+                          "transactionheader": {
+                            "ownKey": "transactionheader",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/chain/transactionheader",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain/transactionheader"
+                              },
+                              "description": "",
+                              "title": "TransactionHeader",
+                              "content": "<p>Created by swapnibble on 2018-03-19.<\/p><init>\n\n<init>\n\nsetExpiration\n\nsetMaxCpuUsageMs\n\ngetRefBlockPrefix\n\ngetDelaySec\n\nsetMaxNetUsageWords\n\npack\n\ngetExpiration\n\ngetRefBlockNum\n\ngetMaxNetUsageWords\n\ngetMaxCpuUsageMs\n\nsetDelaySec\n\nsetReferenceBlock\n\n"
+                            }]
+                          },
+                          "packedtransaction": {
+                            "ownKey": "packedtransaction",
+                            "childrenPages": {"compresstype": {
+                              "ownKey": "compresstype",
+                              "ownPages": [{
+                                "reference": {
+                                  "path": "kotlindoc",
+                                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                  "fileName": "com/metallicus/protonsdk/eosio/commander/model/chain/packedtransaction/compresstype",
+                                  "extension": "html",
+                                  "usePrettyUrl": true,
+                                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain/packedtransaction/compresstype"
+                                },
+                                "description": "",
+                                "title": "CompressType",
+                                "content": "<p>none<\/p>\n<p>zlib<\/p>\n"
+                              }]
+                            }},
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/chain/packedtransaction",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain/packedtransaction"
+                              },
+                              "description": "",
+                              "title": "PackedTransaction",
+                              "content": "<p>Created by swapnibble on 2018-03-19.<\/p><init>\n\n<init>\n\ngetPackedTrx\n\ngetSignatures\n\n"
+                            }]
+                          },
+                          "signedtransaction": {
+                            "ownKey": "signedtransaction",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/chain/signedtransaction",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain/signedtransaction"
+                              },
+                              "description": "",
+                              "title": "SignedTransaction",
+                              "content": "<p>Created by swapnibble on 2017-09-11.<\/p><init>\n\n<init>\n\n<init>\n\ngetCtxFreeData\n\nputSignatures\n\nsign\n\ngetCtxFreeDataCount\n\ngetSignatures\n\n"
+                            }]
+                          },
+                          "transaction": {
+                            "ownKey": "transaction",
+                            "ownPages": [{
+                              "reference": {
+                                "path": "kotlindoc",
+                                "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                                "fileName": "com/metallicus/protonsdk/eosio/commander/model/chain/transaction",
+                                "extension": "html",
+                                "usePrettyUrl": true,
+                                "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain/transaction"
+                              },
+                              "description": "",
+                              "title": "Transaction",
+                              "content": "<p>Created by swapnibble on 2018-03-19.<\/p><init>\n\n<init>\n\npack\n\naddAction\n\ngetActions\n\nsetActions\n\ngetContextFreeActionCount\n\n"
+                            }]
+                          }
+                        },
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/model/chain",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/model/chain"
+                          },
+                          "description": "",
+                          "title": "com.metallicus.protonsdk.eosio.commander.model.chain",
+                          "content": "<p>SignedTransaction<\/p>\n<p>Created by swapnibble on 2017-09-11.<\/p>\nPackedTransaction\n<p>Created by swapnibble on 2018-03-19.<\/p>\nAction\n<p>Created by swapnibble on 2017-09-11.<\/p>\nTransactionHeader\n<p>Created by swapnibble on 2018-03-19.<\/p>\nTransaction\n<p>Created by swapnibble on 2018-03-19.<\/p>\n"
+                        }]
+                      }
+                    }
+                  },
+                  "ec": {
+                    "ownKey": "ec",
+                    "childrenPages": {
+                      "ecpoint": {
+                        "ownKey": "ecpoint",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/ec/ecpoint",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/ecpoint"
+                          },
+                          "description": "",
+                          "title": "EcPoint",
+                          "content": "<p>This class represents an elliptic curve point.<\/p><init>\n\n<init>\n\nmultiply\n\nhashCode\n\ngetX\n\nequals\n\ngetY\n\ntwice\n\ngetCurve\n\ngetEncoded\n<p>return the field element encoded with point compression. (S 4.3.6)<\/p>\nadd\n\nisInfinity\n\nisCompressed\n\nsubtract\n\nnegate\n\n"
+                        }]
+                      },
+                      "ecfieldelement": {
+                        "ownKey": "ecfieldelement",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/ec/ecfieldelement",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/ecfieldelement"
+                          },
+                          "description": "",
+                          "title": "EcFieldElement",
+                          "content": "<p>This class represents an elliptic field element.<\/p><init>\n\nmultiply\n\nhashCode\n\nequals\n\ntoString\n\nsqrt\n\ndivide\n\ngetFieldSize\n\nadd\n\ninvert\n\nsubtract\n\nsquare\n\ngetQ\n\nnegate\n\ntoBigInteger\n\n"
+                        }]
+                      },
+                      "ecsignature": {
+                        "ownKey": "ecsignature",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/ec/ecsignature",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/ecsignature"
+                          },
+                          "description": "",
+                          "title": "EcSignature",
+                          "content": "<p>Created by swapnibble on 2017-09-20.<\/p>recId\n<p>r<\/p>\n<p>s<\/p>\n<p>curveParam<\/p>\n<p><init><\/p>\n<p><init><\/p>\n<p><init><\/p>\n<p>setRecid<\/p>\n<p>isRSEachLength<\/p>\n<p>equals<\/p>\n<p>eosEncodingHex<\/p>\n<p>toString<\/p>\n<p>isCanonical<\/p>\n<p>Returns true if the S component is \"low\", that means it is below HALF_CURVE_ORDER. See <a href=\"https://github.com/bitcoin/bips/blob/master/bip-0062.mediawiki#Low_S_values_in_signatures\">BIP62<\/a>.<\/p>\ntoCanonicalised\n<p>Will automatically adjust the S component to be less than or equal to half the curve order, if necessary. This is required because for every signature (r,s) the signature (r, -s (mod N)) is a valid signature of the same message. However, we dislike the ability to modify the bits of a Bitcoin transaction after it's been signed, as that violates various assumed invariants. Thus in future only one of those forms will be considered legal and the other will be banned.<\/p>\n"
+                        }]
+                      },
+                      "eospublickey": {
+                        "ownKey": "eospublickey",
+                        "childrenPages": {"illegaleospubkeyformatexception": {
+                          "ownKey": "illegaleospubkeyformatexception",
+                          "ownPages": [{
+                            "reference": {
+                              "path": "kotlindoc",
+                              "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                              "fileName": "com/metallicus/protonsdk/eosio/commander/ec/eospublickey/illegaleospubkeyformatexception",
+                              "extension": "html",
+                              "usePrettyUrl": true,
+                              "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/eospublickey/illegaleospubkeyformatexception"
+                            },
+                            "description": "",
+                            "title": "IllegalEosPubkeyFormatException",
+                            "content": "<p><init><\/p>\n"
+                          }]
+                        }},
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/ec/eospublickey",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/eospublickey"
+                          },
+                          "description": "",
+                          "title": "EosPublicKey",
+                          "content": "<p>Created by swapnibble on 2017-09-25.<\/p><init>\n\n<init>\n\n<init>\n\nhashCode\n\nequals\n\ntoString\n\ngetBytes\n\nisCurveParamK1\n\n"
+                        }]
+                      },
+                      "ectools": {
+                        "ownKey": "ectools",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/ec/ectools",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/ectools"
+                          },
+                          "description": "",
+                          "title": "EcTools",
+                          "content": "<p>modified by swapnibble from plactal.io Various tools for elliptic curves<\/p><init>\n<p>modified by swapnibble from plactal.io Various tools for elliptic curves<\/p>\ngetCurveParam\n\ngetByteLength\n<p>Get the length of the byte encoding of a field element<\/p>\nintegerToBytes\n<p>Get a big integer as an array of bytes of a specified length<\/p>\nmultiply\n<p>Multiply a point with a big integer<\/p>\nsumOfTwoMultiplies\n\ndecompressKey\n\n"
+                        }]
+                      },
+                      "eosprivatekey": {
+                        "ownKey": "eosprivatekey",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/ec/eosprivatekey",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/eosprivatekey"
+                          },
+                          "description": "",
+                          "title": "EosPrivateKey",
+                          "content": "<p>Created by swapnibble on 2017-09-25. <\/p><p> 참고: https://github.com/EOSIO/eosjs-ecc https://github.com/EOSIO/eosjs-ecc/blob/master/src/ecdsa.js<\/p><init>\n\n<init>\n\n<init>\n\n<init>\n\n<init>\n\ngetPublicKey\n\nclear\n\nsign\n\ntoString\n\ngetSharedSecret\n\ngetCurveParam\n\ntoWif\n\ngetBytes\n\ngetBytes\n\ngetAsBigInteger\n\ngetSecureRandom\n\ngetPublicKey\n\n"
+                        }]
+                      },
+                      "ecdsa": {
+                        "ownKey": "ecdsa",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/ec/ecdsa",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/ecdsa"
+                          },
+                          "description": "",
+                          "title": "EcDsa",
+                          "content": "<p>Created by swapnibble on 2017-09-29.<\/p><init>\n<p>Created by swapnibble on 2017-09-29.<\/p>\nsign\n\nrecoverPubKey\n\nrecoverPubKey\n\n"
+                        }]
+                      },
+                      "curveparam": {
+                        "ownKey": "curveparam",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/ec/curveparam",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/curveparam"
+                          },
+                          "description": "",
+                          "title": "CurveParam",
+                          "content": "<p>Created by swapnibble on 2018-02-02.<\/p>SECP256_K1\n<p>SECP256_R1<\/p>\n<p><init><\/p>\n<p>n<\/p>\n<p>isType<\/p>\n<p>getCurveParamType<\/p>\n<p>G<\/p>\n<p>halfCurveOrder<\/p>\n<p>getCurve<\/p>\n"
+                        }]
+                      },
+                      "eosecutil": {
+                        "ownKey": "eosecutil",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/ec/eosecutil",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/eosecutil"
+                          },
+                          "description": "",
+                          "title": "EosEcUtil",
+                          "content": "<p>Created by swapnibble on 2018-02-02.<\/p>PREFIX_K1\n<p>PREFIX_R1<\/p>\n<p><init><\/p>\n<p>Created by swapnibble on 2018-02-02.<\/p>\nextractFromRipemd160\n<p>getBytesIfMatchedRipemd160<\/p>\n<p>getBytesIfMatchedSha256<\/p>\n<p>encodeEosCrypto<\/p>\n<p>safeSplitEosCryptoString<\/p>\n<p>concatEosCryptoStr<\/p>\n<p>getCurveParamFrom<\/p>\n"
+                        }]
+                      },
+                      "eccurve": {
+                        "ownKey": "eccurve",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "kotlindoc",
+                            "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                            "fileName": "com/metallicus/protonsdk/eosio/commander/ec/eccurve",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec/eccurve"
+                          },
+                          "description": "",
+                          "title": "EcCurve",
+                          "content": "<p>An elliptic curve<\/p><init>\n\ndecodePoint\n\nhashCode\n\nequals\n\ngetInfinity\n\ngetA\n\ngetQ\n\nfromBigInteger\n\ngetB\n\ngetFieldSize\n\n"
+                        }]
+                      }
+                    },
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/eosio/commander/ec",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/ec"
+                      },
+                      "description": "",
+                      "title": "com.metallicus.protonsdk.eosio.commander.ec",
+                      "content": "<p>EosEcUtil<\/p>\n<p>Created by swapnibble on 2018-02-02.<\/p>\nCurveParam\n<p>Created by swapnibble on 2018-02-02.<\/p>\nEosPrivateKey\n<p>Created by swapnibble on 2017-09-25. <\/p><p> 참고: https://github.com/EOSIO/eosjs-ecc https://github.com/EOSIO/eosjs-ecc/blob/master/src/ecdsa.js<\/p>\nEcFieldElement\n<p>This class represents an elliptic field element.<\/p>\nEcTools\n<p>modified by swapnibble from plactal.io Various tools for elliptic curves<\/p>\nEcDsa\n<p>Created by swapnibble on 2017-09-29.<\/p>\nEcCurve\n<p>An elliptic curve<\/p>\nEosPublicKey\n<p>Created by swapnibble on 2017-09-25.<\/p>\nEcSignature\n<p>Created by swapnibble on 2017-09-20.<\/p>\nEcPoint\n<p>This class represents an elliptic curve point.<\/p>\n"
+                    }]
+                  },
+                  "bitutils": {
+                    "ownKey": "bitutils",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/eosio/commander/bitutils",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/bitutils"
+                      },
+                      "description": "",
+                      "title": "BitUtils",
+                      "content": "<p>Utilities for converting between byte arrays and unsigned integer values.<\/p><init>\n<p>Utilities for converting between byte arrays and unsigned integer values.<\/p>\nuint16ToLong\n\nuint32ToLong\n\nuint64ToLong\n\nuint16FromStream\n\nuint16FromStreamBE\n\nuint32FromStream\n\nuint64FromStream\n\nuint32ToStream\n\nuint64ToStream\n\nuint32ToByteArrayLE\n\nuint64ToByteArrayLE\n\nareEqual\n\ncopyByteArray\n\nreverseBytes\n<p>Returns a copy of the given byte array in reverse order.<\/p>\nreadBytes\n<p>Read a number of bytes or throw.<\/p>\ncopyOf\n\ncopyOfRange\n\nconcatenate\n<p>Return the concatenation of two byte arrays in a new byte array<\/p>\n"
+                    }]
+                  },
+                  "prngfixes": {
+                    "ownKey": "prngfixes",
+                    "childrenPages": {"linuxprngsecurerandom": {
+                      "ownKey": "linuxprngsecurerandom",
+                      "ownPages": [{
+                        "reference": {
+                          "path": "kotlindoc",
+                          "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                          "fileName": "com/metallicus/protonsdk/eosio/commander/prngfixes/linuxprngsecurerandom",
+                          "extension": "html",
+                          "usePrettyUrl": true,
+                          "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/prngfixes/linuxprngsecurerandom"
+                        },
+                        "description": "",
+                        "title": "LinuxPRNGSecureRandom",
+                        "content": "<p><code><a href=\"https://docs.oracle.com/javase/6/docs/api/java/security/SecureRandomSpi.html\">SecureRandomSpi<\/a><\/code> which passes all requests to the Linux PRNG (<code>/dev/urandom<\/code>).<\/p><init>\n<p><code><a href=\"https://docs.oracle.com/javase/6/docs/api/java/security/SecureRandomSpi.html\">SecureRandomSpi<\/a><\/code> which passes all requests to the Linux PRNG (<code>/dev/urandom<\/code>).<\/p>\nengineSetSeed\n\nengineNextBytes\n\nengineGenerateSeed\n\n"
+                      }]
+                    }},
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/eosio/commander/prngfixes",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander/prngfixes"
+                      },
+                      "description": "",
+                      "title": "PRNGFixes",
+                      "content": "<p>Fixes for the output of the default PRNG having low entropy. <\/p><p> The fixes need to be applied via <code> #apply() <\/code> before any use of Java Cryptography Architecture primitives. A good place to invoke them is in the application's <code>onCreate<\/code>.<\/p>apply\n<p>Applies all fixes.<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                    "fileName": "com/metallicus/protonsdk/eosio/commander",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/eosio/commander"
+                  },
+                  "description": "",
+                  "title": "com.metallicus.protonsdk.eosio.commander",
+                  "content": "<p>StringUtils<\/p>\n<p>CryptUtil<\/p>\n<p>Created by swapnibble on 2017-08-09.<\/p>\nGsonEosTypeAdapterFactory\n<p>Created by swapnibble on 2018-04-04.<\/p>\nUtils\n<p>Created by swapnibble on 2017-10-18.<\/p>\nBase58\n<p> Base58 is a way to encode Bitcoin addresses as numbers and letters. Note that this is not the same base58 as used by Flickr, which you may see reference to around the internet. <\/p> <p> Satoshi says: why base-58 instead of standard base-64 encoding? <\/p><p> <\/p><ul> <li>Don't want 0OIl characters that look the same in some fonts and could be used to create visually identical looking account numbers.<\/li> <li>A string with non-alphanumeric characters is not as easily accepted as an account number.<\/li> <li>E-mail usually won't line-break if there's no punctuation to break at.<\/li> <li>Doubleclicking selects the whole number as one word if it's all alphanumeric.<\/li> <\/ul>\nHexUtils\n<p>Utilities for going to and from ASCII-HEX representation.<\/p>\nPRNGFixes\n<p>Fixes for the output of the default PRNG having low entropy. <\/p><p> The fixes need to be applied via <code> #apply() <\/code> before any use of Java Cryptography Architecture primitives. A good place to invoke them is in the application's <code>onCreate<\/code>.<\/p>\nHmac\n<p>RefValue<\/p>\n<p>Created by swapnibble on 2017-09-28.<\/p>\nBitUtils\n<p>Utilities for converting between byte arrays and unsigned integer values.<\/p>\ncom.metallicus.protonsdk.eosio.commander.digest\n<p>com.metallicus.protonsdk.eosio.commander.ec<\/p>\n<p>com.metallicus.protonsdk.eosio.commander.model.types<\/p>\n<p>com.metallicus.protonsdk.eosio.commander.model.chain<\/p>\n"
+                }]
+              }}
+            },
+            "securestorage": {
+              "ownKey": "securestorage",
+              "childrenPages": {
+                "securestorageexception": {
+                  "ownKey": "securestorageexception",
+                  "childrenPages": {"exceptiontype": {
+                    "ownKey": "exceptiontype",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/securestorage/securestorageexception/exceptiontype",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/securestorage/securestorageexception/exceptiontype"
+                      },
+                      "description": "",
+                      "title": "ExceptionType",
+                      "content": "<p>KEYSTORE_EXCEPTION<\/p>\n<p>CRYPTO_EXCEPTION<\/p>\n<p>KEYSTORE_NOT_SUPPORTED_EXCEPTION<\/p>\n<p>INTERNAL_LIBRARY_EXCEPTION<\/p>\n"
+                    }]
+                  }},
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/securestorage/securestorageexception",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/securestorage/securestorageexception"
+                    },
+                    "description": "",
+                    "title": "SecureStorageException",
+                    "content": "<p>type<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "securepreferences": {
+                  "ownKey": "securepreferences",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/securestorage/securepreferences",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/securestorage/securepreferences"
+                    },
+                    "description": "",
+                    "title": "SecurePreferences",
+                    "content": "<p>getSharedPreferencesName<\/p>\n<p>setSharedPreferencesName<\/p>\n<p>setValue<\/p>\n<p>setValue<\/p>\n<p>setValue<\/p>\n<p>setValue<\/p>\n<p>setValue<\/p>\n<p>setValue<\/p>\n<p>setValue<\/p>\n<p>setValue<\/p>\n<p>setValue<\/p>\n<p>setValue<\/p>\n<p>getStringValue<\/p>\n<p>getStringValue<\/p>\n<p>getBooleanValue<\/p>\n<p>getBooleanValue<\/p>\n<p>getFloatValue<\/p>\n<p>getFloatValue<\/p>\n<p>getLongValue<\/p>\n<p>getLongValue<\/p>\n<p>getIntValue<\/p>\n<p>getIntValue<\/p>\n<p>getSharedPreferences<\/p>\n<p>contains<\/p>\n<p>removeValue<\/p>\n<p>clearAllValues<\/p>\n"
+                  }]
+                },
+                "prngfixes": {
+                  "ownKey": "prngfixes",
+                  "childrenPages": {"linuxprngsecurerandom": {
+                    "ownKey": "linuxprngsecurerandom",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/securestorage/prngfixes/linuxprngsecurerandom",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/securestorage/prngfixes/linuxprngsecurerandom"
+                      },
+                      "description": "",
+                      "title": "LinuxPRNGSecureRandom",
+                      "content": "<p><code><a href=\"https://docs.oracle.com/javase/6/docs/api/java/security/SecureRandomSpi.html\">SecureRandomSpi<\/a><\/code> which passes all requests to the Linux PRNG (<code>/dev/urandom<\/code>).<\/p><init>\n<p><code><a href=\"https://docs.oracle.com/javase/6/docs/api/java/security/SecureRandomSpi.html\">SecureRandomSpi<\/a><\/code> which passes all requests to the Linux PRNG (<code>/dev/urandom<\/code>).<\/p>\nengineSetSeed\n\nengineNextBytes\n\nengineGenerateSeed\n\n"
+                    }]
+                  }},
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/securestorage/prngfixes",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/securestorage/prngfixes"
+                    },
+                    "description": "",
+                    "title": "PRNGFixes",
+                    "content": "<p>Fixes for the output of the default PRNG having low entropy on Api 18 and below. <\/p><p> The fixes need to be applied via <code> #apply() <\/code> before any use of Java Cryptography Architecture primitives. A good place to invoke them is in the application's <code>onCreate<\/code>.<\/p>apply\n<p>Applies all fixes.<\/p>\n"
+                  }]
+                }
+              },
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/securestorage",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/securestorage"
+                },
+                "description": "",
+                "title": "com.metallicus.protonsdk.securestorage",
+                "content": "<p>SecurePreferences<\/p>\n<p>SecureStorageException<\/p>\n<p>PRNGFixes<\/p>\n<p>Fixes for the output of the default PRNG having low entropy on Api 18 and below. <\/p><p> The fixes need to be applied via <code> #apply() <\/code> before any use of Java Cryptography Architecture primitives. A good place to invoke them is in the application's <code>onCreate<\/code>.<\/p>\n"
+              }]
+            },
+            "accountmodule": {
+              "ownKey": "accountmodule",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/accountmodule",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/accountmodule"
+                },
+                "description": "",
+                "title": "AccountModule",
+                "content": "<p>Helper class used for  Account  based operations<\/p>context\n<p>accountRepository<\/p>\n<p>chainProviderRepository<\/p>\n<p>accountContactRepository<\/p>\n<p>esrRepository<\/p>\n<p>prefs<\/p>\n<p>secureKeys<\/p>\n<p>disallowedESRActions<\/p>\n<p><init><\/p>\n<p>Helper class used for  Account  based operations<\/p>\ngetActiveAccountName\n<p>accountAvailable<\/p>\n<p>getAccountNamesForPublicKey<\/p>\n<p>fetchAccountsForKey<\/p>\n<p>hasPrivateKeys<\/p>\n<p>resetPrivateKeys<\/p>\n<p>isPinValid<\/p>\n<p>setActiveAccount<\/p>\n<p>getActiveAccount<\/p>\n<p>refreshAccount<\/p>\n<p>getActiveAccountPrivateKey<\/p>\n<p>updateAccountName<\/p>\n<p>updateAccountAvatar<\/p>\n<p>decodeESR<\/p>\n<p>cancelAuthorizeESR<\/p>\n<p>getAppName<\/p>\n<p>authorizeESR<\/p>\n<p>getESRSessions<\/p>\n<p>updateESRSession<\/p>\n<p>removeESRSession<\/p>\n<p>removeAllESRSessions<\/p>\n<p>decodeESRSessionMessage<\/p>\n<p>authorizeESRActions<\/p>\n"
+              }]
+            },
+            "common": {
+              "ownKey": "common",
+              "childrenPages": {
+                "protonexception": {
+                  "ownKey": "protonexception",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/common/protonexception",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/protonexception"
+                    },
+                    "description": "",
+                    "title": "ProtonException",
+                    "content": "<p>code<\/p>\n<p><init><\/p>\n<p><init><\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "resource": {
+                  "ownKey": "resource",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/common/resource",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/resource"
+                    },
+                    "description": "",
+                    "title": "Resource",
+                    "content": "<p>A generic class that emulates loading, success, and error states with optional data and messages.<\/p>status\n<p>data<\/p>\n<p>message<\/p>\n<p>code<\/p>\n<p><init><\/p>\n<p>A generic class that emulates loading, success, and error states with optional data and messages.<\/p>\nResource\n<p>A generic class that emulates loading, success, and error states with optional data and messages.<\/p>\n"
+                  }]
+                },
+                "protonerror": {
+                  "ownKey": "protonerror",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/common/protonerror",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/protonerror"
+                    },
+                    "description": "",
+                    "title": "ProtonError",
+                    "content": "<p>message<\/p>\n<p>code<\/p>\n<p><init><\/p>\n<p><init><\/p>\n<p>ProtonError<\/p>\n"
+                  }]
+                },
+                "singletonholder": {
+                  "ownKey": "singletonholder",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/common/singletonholder",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/singletonholder"
+                    },
+                    "description": "",
+                    "title": "SingletonHolder",
+                    "content": "<p><init><\/p>\n<p>getInstance<\/p>\n"
+                  }]
+                },
+                "prefs": {
+                  "ownKey": "prefs",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/common/prefs",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/prefs"
+                    },
+                    "description": "",
+                    "title": "Prefs",
+                    "content": "<p>hasChainProvider<\/p>\n<p>hasTokenContracts<\/p>\n<p>hasChainUrlStats<\/p>\n<p>activeChainId<\/p>\n<p>hasActiveAccount<\/p>\n<p><init><\/p>\n<p>getActiveAccountName<\/p>\n<p>getActivePublicKey<\/p>\n<p>setActiveAccount<\/p>\n<p>clearInit<\/p>\n<p>clearAll<\/p>\n<p>Prefs<\/p>\n"
+                  }]
+                },
+                "status": {
+                  "ownKey": "status",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/common/status",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/status"
+                    },
+                    "description": "",
+                    "title": "Status",
+                    "content": "<p>SUCCESS<\/p>\n<p>ERROR<\/p>\n<p>LOADING<\/p>\n"
+                  }]
+                },
+                "securekeys": {
+                  "ownKey": "securekeys",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/common/securekeys",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common/securekeys"
+                    },
+                    "description": "",
+                    "title": "SecureKeys",
+                    "content": "<p><init><\/p>\n<p>hasKeys<\/p>\n<p>checkPin<\/p>\n<p>resetKeys<\/p>\n<p>keyExists<\/p>\n<p>getPrivateKey<\/p>\n<p>addKey<\/p>\n<p>removeKey<\/p>\n<p>removeAll<\/p>\n<p>SecureKeys<\/p>\n"
+                  }]
+                }
+              },
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/common",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/common"
+                },
+                "description": "",
+                "title": "com.metallicus.protonsdk.common",
+                "content": "<p>Prefs<\/p>\n<p>ProtonError<\/p>\n<p>ProtonException<\/p>\n<p>Resource<\/p>\n<p>A generic class that emulates loading, success, and error states with optional data and messages.<\/p>\nSecureKeys\n<p>SingletonHolder<\/p>\n<p>Status<\/p>\n"
+              }]
+            },
+            "actionsmodule": {
+              "ownKey": "actionsmodule",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/actionsmodule",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/actionsmodule"
+                },
+                "description": "",
+                "title": "ActionsModule",
+                "content": "<p>Helper class used for  Action  based operations<\/p>context\n<p>chainProviderRepository<\/p>\n<p>actionRepository<\/p>\n<p>accountContactRepository<\/p>\n<p>prefs<\/p>\n<p>secureKeys<\/p>\n<p><init><\/p>\n<p>Helper class used for  Action  based operations<\/p>\ngetActions\n<p>signTransaction<\/p>\n<p>transferTokens<\/p>\n<p>signAndPushTransaction<\/p>\n"
+              }]
+            },
+            "workersmodule": {
+              "ownKey": "workersmodule",
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/workersmodule",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workersmodule"
+                },
+                "description": "",
+                "title": "WorkersModule",
+                "content": "<p>Helper class used to facilitate WorkManager operations<\/p>context\n<p>workerFactory<\/p>\n<p>prefs<\/p>\n<p><init><\/p>\n<p>Helper class used to facilitate WorkManager operations<\/p>\ninit\n<p>onInitChainProvider<\/p>\n<p>onInitTokenContracts<\/p>\n<p>onInitActiveAccount<\/p>\n<p>onInitChainUrlStats<\/p>\n<p>WorkersModule<\/p>\n<p>Helper class used to facilitate WorkManager operations<\/p>\n"
+              }]
+            },
+            "model": {
+              "ownKey": "model",
+              "childrenPages": {
+                "accountpermissionkey": {
+                  "ownKey": "accountpermissionkey",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/accountpermissionkey",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountpermissionkey"
+                    },
+                    "description": "",
+                    "title": "AccountPermissionKey",
+                    "content": "<p>key<\/p>\n<p>weight<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "actiontrace": {
+                  "ownKey": "actiontrace",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/actiontrace",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/actiontrace"
+                    },
+                    "description": "",
+                    "title": "ActionTrace",
+                    "content": "<p>trxId<\/p>\n<p>act<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "eosservererror": {
+                  "ownKey": "eosservererror",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/eosservererror",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/eosservererror"
+                    },
+                    "description": "",
+                    "title": "EOSServerError",
+                    "content": "<p>code<\/p>\n<p>message<\/p>\n<p>error<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "currencybalance": {
+                  "ownKey": "currencybalance",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/currencybalance",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/currencybalance"
+                    },
+                    "description": "",
+                    "title": "CurrencyBalance",
+                    "content": "<p>contract<\/p>\n<p>symbol<\/p>\n<p>amount<\/p>\n<p><init><\/p>\n<p>getAmountDouble<\/p>\n"
+                  }]
+                },
+                "accountcpulimit": {
+                  "ownKey": "accountcpulimit",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/accountcpulimit",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountcpulimit"
+                    },
+                    "description": "",
+                    "title": "AccountCpuLimit",
+                    "content": "<p>used<\/p>\n<p>available<\/p>\n<p>max<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "type": {
+                  "ownKey": "type",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/type",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/type"
+                    },
+                    "description": "",
+                    "title": "Type",
+                    "content": "<p>TRANSFER<\/p>\n<p>CUSTOM<\/p>\n"
+                  }]
+                },
+                "kycprovider": {
+                  "ownKey": "kycprovider",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/kycprovider",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/kycprovider"
+                    },
+                    "description": "",
+                    "title": "KYCProvider",
+                    "content": "<p>kycProvider<\/p>\n<p>description<\/p>\n<p>url<\/p>\n<p>iconurl<\/p>\n<p>name<\/p>\n<p>blackListed<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "tokencurrencybalance": {
+                  "ownKey": "tokencurrencybalance",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/tokencurrencybalance",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/tokencurrencybalance"
+                    },
+                    "description": "",
+                    "title": "TokenCurrencyBalance",
+                    "content": "<p>tokenContract<\/p>\n<p>currencyBalance<\/p>\n<p><init><\/p>\n<p>isSystemToken<\/p>\n<p>formatBalance<\/p>\n<p>getBalanceForCurrencyDouble<\/p>\n<p>formatBalanceForCurrency<\/p>\n"
+                  }]
+                },
+                "actiontraceactauthorization": {
+                  "ownKey": "actiontraceactauthorization",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/actiontraceactauthorization",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/actiontraceactauthorization"
+                    },
+                    "description": "",
+                    "title": "ActionTraceActAuthorization",
+                    "content": "<p>actor<\/p>\n<p>permission<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "accountrefundsxprinfo": {
+                  "ownKey": "accountrefundsxprinfo",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/accountrefundsxprinfo",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountrefundsxprinfo"
+                    },
+                    "description": "",
+                    "title": "AccountRefundsXPRInfo",
+                    "content": "<p>owner<\/p>\n<p>quantity<\/p>\n<p>requestTime<\/p>\n<p><init><\/p>\n<p>quantityToDouble<\/p>\n"
+                  }]
+                },
+                "tokencontractrate": {
+                  "ownKey": "tokencontractrate",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/tokencontractrate",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/tokencontractrate"
+                    },
+                    "description": "",
+                    "title": "TokenContractRate",
+                    "content": "<p>price<\/p>\n<p>priceChangePercent<\/p>\n<p>marketCap<\/p>\n<p>volume<\/p>\n<p>timestamp<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "chainaccount": {
+                  "ownKey": "chainaccount",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/chainaccount",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chainaccount"
+                    },
+                    "description": "",
+                    "title": "ChainAccount",
+                    "content": "<p>account<\/p>\n<p>chainProvider<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "action": {
+                  "ownKey": "action",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/action",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/action"
+                    },
+                    "description": "",
+                    "title": "Action",
+                    "content": "<p>accountName<\/p>\n<p>accountContact<\/p>\n<p>globalActionSeq<\/p>\n<p>blockNum<\/p>\n<p>blockTime<\/p>\n<p>actionTrace<\/p>\n<p><init><\/p>\n<p>isTransfer<\/p>\n<p>isSender<\/p>\n<p>getDisplayName<\/p>\n<p>getAmountStr<\/p>\n<p>getAmountCurrency<\/p>\n"
+                  }]
+                },
+                "tokencontract": {
+                  "ownKey": "tokencontract",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/tokencontract",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/tokencontract"
+                    },
+                    "description": "",
+                    "title": "TokenContract",
+                    "content": "<p>id<\/p>\n<p>contract<\/p>\n<p>name<\/p>\n<p>url<\/p>\n<p>description<\/p>\n<p>iconUrl<\/p>\n<p>precisionSymbol<\/p>\n<p>blacklisted<\/p>\n<p>isSystemToken<\/p>\n<p>rank<\/p>\n<p>rates<\/p>\n<p><init><\/p>\n<p>getSymbol<\/p>\n<p>getPrecision<\/p>\n<p>getRate<\/p>\n<p>formatRateForCurrency<\/p>\n<p>formatAmountAsAsset<\/p>\n<p>formatAmountForCurrency<\/p>\n<p>getPriceChangePercent<\/p>\n<p>formatPriceChangePercent<\/p>\n<p>getMarketCap<\/p>\n"
+                  }]
+                },
+                "swappoolasset": {
+                  "ownKey": "swappoolasset",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/swappoolasset",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/swappoolasset"
+                    },
+                    "description": "",
+                    "title": "SwapPoolAsset",
+                    "content": "<p>quantity<\/p>\n<p>contract<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "accountcontact": {
+                  "ownKey": "accountcontact",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/accountcontact",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountcontact"
+                    },
+                    "description": "",
+                    "title": "AccountContact",
+                    "content": "<p>accountName<\/p>\n<p>id<\/p>\n<p>name<\/p>\n<p>avatar<\/p>\n<p>verified<\/p>\n<p>verifiedFields<\/p>\n<p><init><\/p>\n<p>getDisplayName<\/p>\n<p>getAvatarByteArray<\/p>\n<p>isLightKYCVerified<\/p>\n"
+                  }]
+                },
+                "actiontraceact": {
+                  "ownKey": "actiontraceact",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/actiontraceact",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/actiontraceact"
+                    },
+                    "description": "",
+                    "title": "ActionTraceAct",
+                    "content": "<p>account<\/p>\n<p>name<\/p>\n<p>authorization<\/p>\n<p>data<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "chainurlinfo": {
+                  "ownKey": "chainurlinfo",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/chainurlinfo",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chainurlinfo"
+                    },
+                    "description": "",
+                    "title": "ChainUrlInfo",
+                    "content": "<p>url<\/p>\n<p>responseTimeMillis<\/p>\n<p>blockDiff<\/p>\n<p>inSync<\/p>\n<p><init><\/p>\n<p>ChainUrlInfo<\/p>\n"
+                  }]
+                },
+                "chainprovider": {
+                  "ownKey": "chainprovider",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/chainprovider",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chainprovider"
+                    },
+                    "description": "",
+                    "title": "ChainProvider",
+                    "content": "<p>protonChainUrl<\/p>\n<p>kycProviders<\/p>\n<p>chainUrlStats<\/p>\n<p>hyperionHistoryUrlStats<\/p>\n<p>chainId<\/p>\n<p>name<\/p>\n<p>description<\/p>\n<p>iconUrl<\/p>\n<p>isTestnet<\/p>\n<p>chainUrl<\/p>\n<p>hyperionHistoryUrl<\/p>\n<p>explorerName<\/p>\n<p>explorerUrl<\/p>\n<p>resourceTokenSymbol<\/p>\n<p>resourceTokenContract<\/p>\n<p>systemTokenSymbol<\/p>\n<p>systemTokenContract<\/p>\n<p>createAccountPath<\/p>\n<p>updateAccountAvatarPath<\/p>\n<p>updateAccountNamePath<\/p>\n<p>exchangeRatePath<\/p>\n<p>chainUrls<\/p>\n<p>hyperionHistoryUrls<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "swappooldata": {
+                  "ownKey": "swappooldata",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/swappooldata",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/swappooldata"
+                    },
+                    "description": "",
+                    "title": "SwapPoolData",
+                    "content": "<p>swapPools<\/p>\n<p>swapPoolTokens<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "keyaccount": {
+                  "ownKey": "keyaccount",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/keyaccount",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/keyaccount"
+                    },
+                    "description": "",
+                    "title": "KeyAccount",
+                    "content": "<p>accountNames<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "esrsession": {
+                  "ownKey": "esrsession",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/esrsession",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/esrsession"
+                    },
+                    "description": "",
+                    "title": "ESRSession",
+                    "content": "<p>id<\/p>\n<p>signer<\/p>\n<p>callbackUrl<\/p>\n<p>receiveKey<\/p>\n<p>receiveChannelUrl<\/p>\n<p>createdAt<\/p>\n<p>updatedAt<\/p>\n<p>requester<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "esrsessionmessage": {
+                  "ownKey": "esrsessionmessage",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/esrsessionmessage",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/esrsessionmessage"
+                    },
+                    "description": "",
+                    "title": "ESRSessionMessage",
+                    "content": "<p>esrSession<\/p>\n<p>message<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "accounttotalresources": {
+                  "ownKey": "accounttotalresources",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/accounttotalresources",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accounttotalresources"
+                    },
+                    "description": "",
+                    "title": "AccountTotalResources",
+                    "content": "<p>owner<\/p>\n<p>netWeight<\/p>\n<p>cpuWeight<\/p>\n<p>ramBytes<\/p>\n<p><init><\/p>\n<p>netWeightToDouble<\/p>\n<p>cpuWeightToDouble<\/p>\n"
+                  }]
+                },
+                "esraction": {
+                  "ownKey": "esraction",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/esraction",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/esraction"
+                    },
+                    "description": "",
+                    "title": "ESRAction",
+                    "content": "<p>type<\/p>\n<p>name<\/p>\n<p>accountName<\/p>\n<p>data<\/p>\n<p><init><\/p>\n<p>isTransfer<\/p>\n<p>getActionName<\/p>\n<p>getActionAccountName<\/p>\n<p>getIconUrl<\/p>\n<p>getTransferQuantity<\/p>\n<p>getTransferQuantityAmount<\/p>\n<p>getTransferQuantitySymbol<\/p>\n"
+                  }]
+                },
+                "eoserrordetail": {
+                  "ownKey": "eoserrordetail",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/eoserrordetail",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/eoserrordetail"
+                    },
+                    "description": "",
+                    "title": "EOSErrorDetail",
+                    "content": "<p>message<\/p>\n<p>file<\/p>\n<p>lineNumber<\/p>\n<p>method<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "activeaccount": {
+                  "ownKey": "activeaccount",
+                  "childrenPages": {"builder": {
+                    "ownKey": "builder",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/model/activeaccount/builder",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/activeaccount/builder"
+                      },
+                      "description": "",
+                      "title": "Builder",
+                      "content": "<p>privateKey<\/p>\n<p>pin<\/p>\n<p>accountName<\/p>\n<p><init><\/p>\n<p>setPrivateKey<\/p>\n<p>create<\/p>\n"
+                    }]
+                  }},
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/activeaccount",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/activeaccount"
+                    },
+                    "description": "",
+                    "title": "ActiveAccount",
+                    "content": "<p>accountName<\/p>\n<p>privateKey<\/p>\n<p>pin<\/p>\n<p><init><\/p>\n<p>hasPrivateKey<\/p>\n<p>getPublicKey<\/p>\n"
+                  }]
+                },
+                "accountvoterinfo": {
+                  "ownKey": "accountvoterinfo",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/accountvoterinfo",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountvoterinfo"
+                    },
+                    "description": "",
+                    "title": "AccountVoterInfo",
+                    "content": "<p>owner<\/p>\n<p>proxy<\/p>\n<p>staked<\/p>\n<p>lastVoteWeight<\/p>\n<p>proxiedVoteWeight<\/p>\n<p>isProxy<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "accountpermissionrequiredauth": {
+                  "ownKey": "accountpermissionrequiredauth",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/accountpermissionrequiredauth",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountpermissionrequiredauth"
+                    },
+                    "description": "",
+                    "title": "AccountPermissionRequiredAuth",
+                    "content": "<p>threshold<\/p>\n<p>keys<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "protonesr": {
+                  "ownKey": "protonesr",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/protonesr",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/protonesr"
+                    },
+                    "description": "",
+                    "title": "ProtonESR",
+                    "content": "<p>signingAccount<\/p>\n<p>signingRequest<\/p>\n<p>originESRUrlScheme<\/p>\n<p>requestAccount<\/p>\n<p>returnPath<\/p>\n<p>requestKey<\/p>\n<p>actions<\/p>\n<p><init><\/p>\n<p>getRequestAccountDisplayName<\/p>\n"
+                  }]
+                },
+                "accountvotersxprinfo": {
+                  "ownKey": "accountvotersxprinfo",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/accountvotersxprinfo",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountvotersxprinfo"
+                    },
+                    "description": "",
+                    "title": "AccountVotersXPRInfo",
+                    "content": "<p>owner<\/p>\n<p>staked<\/p>\n<p>isQualified<\/p>\n<p>claimAmount<\/p>\n<p>lastClaim<\/p>\n<p><init><\/p>\n<p>getStakedAmount<\/p>\n"
+                  }]
+                },
+                "accountselfdelegatedbandwidth": {
+                  "ownKey": "accountselfdelegatedbandwidth",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/accountselfdelegatedbandwidth",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountselfdelegatedbandwidth"
+                    },
+                    "description": "",
+                    "title": "AccountSelfDelegatedBandwidth",
+                    "content": "<p>from<\/p>\n<p>to<\/p>\n<p>netWeight<\/p>\n<p>cpuWeight<\/p>\n<p><init><\/p>\n<p>netWeightToDouble<\/p>\n<p>cpuWeightToDouble<\/p>\n"
+                  }]
+                },
+                "swappoolfee": {
+                  "ownKey": "swappoolfee",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/swappoolfee",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/swappoolfee"
+                    },
+                    "description": "",
+                    "title": "SwapPoolFee",
+                    "content": "<p>exchangeFee<\/p>\n<p>addLiquidityFee<\/p>\n<p>removeLiquidityFee<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "eoserror": {
+                  "ownKey": "eoserror",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/eoserror",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/eoserror"
+                    },
+                    "description": "",
+                    "title": "EOSError",
+                    "content": "<p>code<\/p>\n<p>name<\/p>\n<p>what<\/p>\n<p>details<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "accountpermission": {
+                  "ownKey": "accountpermission",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/accountpermission",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountpermission"
+                    },
+                    "description": "",
+                    "title": "AccountPermission",
+                    "content": "<p>permName<\/p>\n<p>parent<\/p>\n<p>requiredAuth<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "actiontraceactdata": {
+                  "ownKey": "actiontraceactdata",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/actiontraceactdata",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/actiontraceactdata"
+                    },
+                    "description": "",
+                    "title": "ActionTraceActData",
+                    "content": "<p>from<\/p>\n<p>to<\/p>\n<p>quantity<\/p>\n<p>memo<\/p>\n<p>receiver<\/p>\n<p>stakeCpuQuantity<\/p>\n<p>stakeNetQuantity<\/p>\n<p>unStakeCpuQuantity<\/p>\n<p>unStakeNetQuantity<\/p>\n<p><init><\/p>\n<p>quantityToDouble<\/p>\n<p>stakeCpuQuantityToDouble<\/p>\n<p>stakeNetQuantityToDouble<\/p>\n<p>stakeTotal<\/p>\n<p>unStakeCpuQuantityToDouble<\/p>\n<p>unStakeNetQuantityToDouble<\/p>\n<p>unStakeTotal<\/p>\n"
+                  }]
+                },
+                "chaininfo": {
+                  "ownKey": "chaininfo",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/chaininfo",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/chaininfo"
+                    },
+                    "description": "",
+                    "title": "ChainInfo",
+                    "content": "<p>serverVersion<\/p>\n<p>chainId<\/p>\n<p>headBlockNum<\/p>\n<p>lastIrreversibleBlockNum<\/p>\n<p>lastIrreversibleBlockId<\/p>\n<p>headBlockId<\/p>\n<p>headBlockTime<\/p>\n<p>headBlockProducer<\/p>\n<p>virtualBlockCpuLimit<\/p>\n<p>virtualBlockNetLimit<\/p>\n<p>blockCpuLimit<\/p>\n<p>blockNetLimit<\/p>\n<p><init><\/p>\n<p>getTimeAfterHeadBlockTime<\/p>\n"
+                  }]
+                },
+                "accountnetlimit": {
+                  "ownKey": "accountnetlimit",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/accountnetlimit",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/accountnetlimit"
+                    },
+                    "description": "",
+                    "title": "AccountNetLimit",
+                    "content": "<p>used<\/p>\n<p>available<\/p>\n<p>max<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "jsontobinresponse": {
+                  "ownKey": "jsontobinresponse",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/jsontobinresponse",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/jsontobinresponse"
+                    },
+                    "description": "",
+                    "title": "JsonToBinResponse",
+                    "content": "<p>binArgs<\/p>\n<p>requiredScope<\/p>\n<p>requiredAuth<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "requiredkeysresponse": {
+                  "ownKey": "requiredkeysresponse",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/requiredkeysresponse",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/requiredkeysresponse"
+                    },
+                    "description": "",
+                    "title": "RequiredKeysResponse",
+                    "content": "<p>requiredKeys<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "account": {
+                  "ownKey": "account",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/account",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/account"
+                    },
+                    "description": "",
+                    "title": "Account",
+                    "content": "<p>accountChainId<\/p>\n<p>accountContact<\/p>\n<p>votersXPRInfo<\/p>\n<p>refundsXPRInfo<\/p>\n<p>accountName<\/p>\n<p>headBlockNum<\/p>\n<p>headBlockTime<\/p>\n<p>privileged<\/p>\n<p>lastCodeUpdate<\/p>\n<p>created<\/p>\n<p>coreLiquidBalance<\/p>\n<p>ramQuota<\/p>\n<p>netWeight<\/p>\n<p>cpuWeight<\/p>\n<p>ramUsage<\/p>\n<p>netLimit<\/p>\n<p>cpuLimit<\/p>\n<p>permissions<\/p>\n<p>totalResources<\/p>\n<p>selfDelegatedBandwidth<\/p>\n<p>voterInfo<\/p>\n<p><init><\/p>\n<p>getBalance<\/p>\n<p>getDelegatedCPU<\/p>\n<p>getDelegatedNet<\/p>\n<p>getSelfDelegatedResources<\/p>\n<p>getStakedXPR<\/p>\n<p>getRefundsXPR<\/p>\n"
+                  }]
+                },
+                "swappool": {
+                  "ownKey": "swappool",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/model/swappool",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model/swappool"
+                    },
+                    "description": "",
+                    "title": "SwapPool",
+                    "content": "<p>symbol<\/p>\n<p>creator<\/p>\n<p>memo<\/p>\n<p>pool1<\/p>\n<p>pool2<\/p>\n<p>hash<\/p>\n<p>fee<\/p>\n<p>active<\/p>\n<p>reserved<\/p>\n<p><init><\/p>\n<p>getPool1Amount<\/p>\n<p>getPool2Amount<\/p>\n<p>getPool1Symbol<\/p>\n<p>getPool2Symbol<\/p>\n<p>getPool1Contract<\/p>\n<p>getPool2Contract<\/p>\n<p>getFee<\/p>\n<p>deepCopy<\/p>\n"
+                  }]
+                }
+              },
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/model",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/model"
+                },
+                "description": "",
+                "title": "com.metallicus.protonsdk.model",
+                "content": "<p>Account<\/p>\n<p>AccountContact<\/p>\n<p>AccountCpuLimit<\/p>\n<p>AccountNetLimit<\/p>\n<p>AccountPermission<\/p>\n<p>AccountPermissionKey<\/p>\n<p>AccountPermissionRequiredAuth<\/p>\n<p>AccountRefundsXPRInfo<\/p>\n<p>AccountSelfDelegatedBandwidth<\/p>\n<p>AccountTotalResources<\/p>\n<p>AccountVoterInfo<\/p>\n<p>AccountVotersXPRInfo<\/p>\n<p>Action<\/p>\n<p>ActionTrace<\/p>\n<p>ActionTraceAct<\/p>\n<p>ActionTraceActAuthorization<\/p>\n<p>ActionTraceActData<\/p>\n<p>ActiveAccount<\/p>\n<p>ChainAccount<\/p>\n<p>ChainInfo<\/p>\n<p>ChainProvider<\/p>\n<p>ChainUrlInfo<\/p>\n<p>CurrencyBalance<\/p>\n<p>EOSError<\/p>\n<p>EOSErrorDetail<\/p>\n<p>EOSServerError<\/p>\n<p>Type<\/p>\n<p>ESRAction<\/p>\n<p>ESRSession<\/p>\n<p>ESRSessionMessage<\/p>\n<p>JsonToBinResponse<\/p>\n<p>KYCProvider<\/p>\n<p>KeyAccount<\/p>\n<p>ProtonESR<\/p>\n<p>RequiredKeysResponse<\/p>\n<p>SwapPool<\/p>\n<p>SwapPoolAsset<\/p>\n<p>SwapPoolFee<\/p>\n<p>SwapPoolData<\/p>\n<p>TokenContract<\/p>\n<p>TokenContractRate<\/p>\n<p>TokenCurrencyBalance<\/p>\n"
+              }]
+            },
+            "api": {
+              "ownKey": "api",
+              "childrenPages": {
+                "protonchainstatsservice": {
+                  "ownKey": "protonchainstatsservice",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/api/protonchainstatsservice",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/protonchainstatsservice"
+                    },
+                    "description": "",
+                    "title": "ProtonChainStatsService",
+                    "content": "<p>getChainInfo<\/p>\n<p>getHealth<\/p>\n"
+                  }]
+                },
+                "jsontobinbody": {
+                  "ownKey": "jsontobinbody",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/api/jsontobinbody",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/jsontobinbody"
+                    },
+                    "description": "",
+                    "title": "JsonToBinBody",
+                    "content": "<p>code<\/p>\n<p>action<\/p>\n<p>args<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "requiredkeysbody": {
+                  "ownKey": "requiredkeysbody",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/api/requiredkeysbody",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/requiredkeysbody"
+                    },
+                    "description": "",
+                    "title": "RequiredKeysBody",
+                    "content": "<p>transaction<\/p>\n<p>available_keys<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "usernamebody": {
+                  "ownKey": "usernamebody",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/api/usernamebody",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/usernamebody"
+                    },
+                    "description": "",
+                    "title": "UserNameBody",
+                    "content": "<p>name<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "cancelauthorizeesrbody": {
+                  "ownKey": "cancelauthorizeesrbody",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/api/cancelauthorizeesrbody",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/cancelauthorizeesrbody"
+                    },
+                    "description": "",
+                    "title": "CancelAuthorizeESRBody",
+                    "content": "<p>rejected<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "tablerowsindexposition": {
+                  "ownKey": "tablerowsindexposition",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/api/tablerowsindexposition",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/tablerowsindexposition"
+                    },
+                    "description": "",
+                    "title": "TableRowsIndexPosition",
+                    "content": "<p>PRIMARY<\/p>\n<p>SECONDARY<\/p>\n<p>TERTIARY<\/p>\n<p>FOURTH<\/p>\n<p>FIFTH<\/p>\n<p>SIXTH<\/p>\n<p>SEVENTH<\/p>\n<p>EIGHTH<\/p>\n<p>NINTH<\/p>\n<p>TENTH<\/p>\n<p>indexPositionName<\/p>\n"
+                  }]
+                },
+                "accountbody": {
+                  "ownKey": "accountbody",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/api/accountbody",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/accountbody"
+                    },
+                    "description": "",
+                    "title": "AccountBody",
+                    "content": "<p>account_name<\/p>\n<p><init><\/p>\n"
+                  }]
+                },
+                "esrcallbackservice": {
+                  "ownKey": "esrcallbackservice",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/api/esrcallbackservice",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/esrcallbackservice"
+                    },
+                    "description": "",
+                    "title": "ESRCallbackService",
+                    "content": "<p>cancelAuthorizeESR<\/p>\n<p>authorizeESR<\/p>\n"
+                  }]
+                },
+                "protonchainservice": {
+                  "ownKey": "protonchainservice",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/api/protonchainservice",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/protonchainservice"
+                    },
+                    "description": "",
+                    "title": "ProtonChainService",
+                    "content": "<p>getChainProvider<\/p>\n<p>getExchangeRates<\/p>\n<p>updateUserName<\/p>\n<p>uploadUserAvatar<\/p>\n<p>getKeyAccounts<\/p>\n<p>getAccount<\/p>\n<p>getAbi<\/p>\n<p>getCurrencyBalances<\/p>\n<p>getActions<\/p>\n<p>getTableRows<\/p>\n<p>jsonToBin<\/p>\n<p>getRequiredKeys<\/p>\n<p>pushTransaction<\/p>\n"
+                  }]
+                },
+                "tablerowsbody": {
+                  "ownKey": "tablerowsbody",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/api/tablerowsbody",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api/tablerowsbody"
+                    },
+                    "description": "",
+                    "title": "TableRowsBody",
+                    "content": "<p>scope<\/p>\n<p>code<\/p>\n<p>table<\/p>\n<p>lower_bound<\/p>\n<p>upper_bound<\/p>\n<p>limit<\/p>\n<p>index_position<\/p>\n<p>reverse<\/p>\n<p>key_type<\/p>\n<p>json<\/p>\n<p><init><\/p>\n"
+                  }]
+                }
+              },
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/api",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/api"
+                },
+                "description": "",
+                "title": "com.metallicus.protonsdk.api",
+                "content": "<p>CancelAuthorizeESRBody<\/p>\n<p>ESRCallbackService<\/p>\n<p>AccountBody<\/p>\n<p>TableRowsIndexPosition<\/p>\n<p>TableRowsBody<\/p>\n<p>UserNameBody<\/p>\n<p>JsonToBinBody<\/p>\n<p>RequiredKeysBody<\/p>\n<p>ProtonChainService<\/p>\n<p>ProtonChainStatsService<\/p>\n"
+              }]
+            },
+            "workers": {
+              "ownKey": "workers",
+              "childrenPages": {
+                "inittokencontractsworker": {
+                  "ownKey": "inittokencontractsworker",
+                  "childrenPages": {"factory": {
+                    "ownKey": "factory",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/workers/inittokencontractsworker/factory",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/inittokencontractsworker/factory"
+                      },
+                      "description": "",
+                      "title": "Factory",
+                      "content": ""
+                    }]
+                  }},
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/workers/inittokencontractsworker",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/inittokencontractsworker"
+                    },
+                    "description": "",
+                    "title": "InitTokenContractsWorker",
+                    "content": "<p><init><\/p>\n<p>doWork<\/p>\n"
+                  }]
+                },
+                "initchainproviderworker": {
+                  "ownKey": "initchainproviderworker",
+                  "childrenPages": {"factory": {
+                    "ownKey": "factory",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/workers/initchainproviderworker/factory",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/initchainproviderworker/factory"
+                      },
+                      "description": "",
+                      "title": "Factory",
+                      "content": ""
+                    }]
+                  }},
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/workers/initchainproviderworker",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/initchainproviderworker"
+                    },
+                    "description": "",
+                    "title": "InitChainProviderWorker",
+                    "content": "<p><init><\/p>\n<p>doWork<\/p>\n<p>InitChainProviderWorker<\/p>\n"
+                  }]
+                },
+                "protonworkerfactory": {
+                  "ownKey": "protonworkerfactory",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/workers/protonworkerfactory",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/protonworkerfactory"
+                    },
+                    "description": "",
+                    "title": "ProtonWorkerFactory",
+                    "content": "<p><init><\/p>\n<p>createWorker<\/p>\n"
+                  }]
+                },
+                "childworkerfactory": {
+                  "ownKey": "childworkerfactory",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/workers/childworkerfactory",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/childworkerfactory"
+                    },
+                    "description": "",
+                    "title": "ChildWorkerFactory",
+                    "content": "<p>create<\/p>\n"
+                  }]
+                },
+                "initactiveaccountworker": {
+                  "ownKey": "initactiveaccountworker",
+                  "childrenPages": {"factory": {
+                    "ownKey": "factory",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/workers/initactiveaccountworker/factory",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/initactiveaccountworker/factory"
+                      },
+                      "description": "",
+                      "title": "Factory",
+                      "content": ""
+                    }]
+                  }},
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/workers/initactiveaccountworker",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/initactiveaccountworker"
+                    },
+                    "description": "",
+                    "title": "InitActiveAccountWorker",
+                    "content": "<p><init><\/p>\n<p>doWork<\/p>\n"
+                  }]
+                },
+                "initchainurlstatsworker": {
+                  "ownKey": "initchainurlstatsworker",
+                  "childrenPages": {"factory": {
+                    "ownKey": "factory",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "kotlindoc",
+                        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                        "fileName": "com/metallicus/protonsdk/workers/initchainurlstatsworker/factory",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/initchainurlstatsworker/factory"
+                      },
+                      "description": "",
+                      "title": "Factory",
+                      "content": ""
+                    }]
+                  }},
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/workers/initchainurlstatsworker",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers/initchainurlstatsworker"
+                    },
+                    "description": "",
+                    "title": "InitChainUrlStatsWorker",
+                    "content": "<p><init><\/p>\n<p>doWork<\/p>\n"
+                  }]
+                }
+              },
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/workers",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/workers"
+                },
+                "description": "",
+                "title": "com.metallicus.protonsdk.workers",
+                "content": "<p>ChildWorkerFactory<\/p>\n<p>InitActiveAccountWorker<\/p>\n<p>InitChainProviderWorker<\/p>\n<p>InitChainUrlStatsWorker<\/p>\n<p>InitTokenContractsWorker<\/p>\n<p>ProtonWorkerFactory<\/p>\n"
+              }]
+            },
+            "db": {
+              "ownKey": "db",
+              "childrenPages": {
+                "tokencontractdao": {
+                  "ownKey": "tokencontractdao",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/db/tokencontractdao",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/tokencontractdao"
+                    },
+                    "description": "",
+                    "title": "TokenContractDao",
+                    "content": "<p>Interface for database access for  TokenContract  related operations<\/p>insert\n<p>update<\/p>\n<p>findById<\/p>\n<p>findAll<\/p>\n<p>updateRates<\/p>\n<p>removeAll<\/p>\n"
+                  }]
+                },
+                "esrsessiondao": {
+                  "ownKey": "esrsessiondao",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/db/esrsessiondao",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/esrsessiondao"
+                    },
+                    "description": "",
+                    "title": "ESRSessionDao",
+                    "content": "<p>Interface for database access for  ESRSession  related operations<\/p>insert\n<p>update<\/p>\n<p>findById<\/p>\n<p>findAll<\/p>\n<p>remove<\/p>\n<p>removeAll<\/p>\n"
+                  }]
+                },
+                "protontypeconverters": {
+                  "ownKey": "protontypeconverters",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/db/protontypeconverters",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/protontypeconverters"
+                    },
+                    "description": "",
+                    "title": "ProtonTypeConverters",
+                    "content": "<p>stringToAccountContact<\/p>\n<p>accountContactToString<\/p>\n<p>stringToAccountVotersXPRInfo<\/p>\n<p>accountVotersXPRInfoToString<\/p>\n<p>stringToAccountRefundsXPRInfo<\/p>\n<p>accountRefundsXPRInfoToString<\/p>\n<p>stringToKYCProviderList<\/p>\n<p>kycProviderListToString<\/p>\n<p>stringToChainUrlInfoList<\/p>\n<p>chainUrlInfoListToString<\/p>\n<p>stringToStringTokenContractRateMap<\/p>\n<p>stringTokenContractRateMapToString<\/p>\n"
+                  }]
+                },
+                "accountcontactdao": {
+                  "ownKey": "accountcontactdao",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/db/accountcontactdao",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/accountcontactdao"
+                    },
+                    "description": "",
+                    "title": "AccountContactDao",
+                    "content": "<p>Interface for database access for  AccountContact  related operations<\/p>insert\n<p>update<\/p>\n<p>findByAccountName<\/p>\n<p>removeAll<\/p>\n"
+                  }]
+                },
+                "eostypeconverters": {
+                  "ownKey": "eostypeconverters",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/db/eostypeconverters",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/eostypeconverters"
+                    },
+                    "description": "",
+                    "title": "EOSTypeConverters",
+                    "content": "<p>stringToAccountPermissionList<\/p>\n<p>accountPermissionListToString<\/p>\n<p>stringToActionTraceActAuthorizationList<\/p>\n<p>actionTraceActAuthorizationListToString<\/p>\n"
+                  }]
+                },
+                "chainproviderdao": {
+                  "ownKey": "chainproviderdao",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/db/chainproviderdao",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/chainproviderdao"
+                    },
+                    "description": "",
+                    "title": "ChainProviderDao",
+                    "content": "<p>Interface for database access for  ChainProvider  related operations<\/p>insert\n<p>update<\/p>\n<p>findById<\/p>\n<p>findAll<\/p>\n<p>updateChainUrl<\/p>\n<p>updateHyperionHistoryUrl<\/p>\n<p>removeAll<\/p>\n"
+                  }]
+                },
+                "accountdao": {
+                  "ownKey": "accountdao",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/db/accountdao",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/accountdao"
+                    },
+                    "description": "",
+                    "title": "AccountDao",
+                    "content": "<p>Interface for database access for  Account  related operations<\/p>insert\n<p>update<\/p>\n<p>findByAccountName<\/p>\n<p>removeAll<\/p>\n"
+                  }]
+                },
+                "defaulttypeconverters": {
+                  "ownKey": "defaulttypeconverters",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/db/defaulttypeconverters",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/defaulttypeconverters"
+                    },
+                    "description": "",
+                    "title": "DefaultTypeConverters",
+                    "content": "<p>stringToIntList<\/p>\n<p>intListToString<\/p>\n<p>stringToStringList<\/p>\n<p>stringListToString<\/p>\n"
+                  }]
+                },
+                "actiondao": {
+                  "ownKey": "actiondao",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/db/actiondao",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/actiondao"
+                    },
+                    "description": "",
+                    "title": "ActionDao",
+                    "content": "<p>Interface for database access for  Action  related operations<\/p>insert\n<p>findBySystemTokenContract<\/p>\n<p>findByTokenContract<\/p>\n<p>removeAll<\/p>\n"
+                  }]
+                },
+                "protondb": {
+                  "ownKey": "protondb",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "kotlindoc",
+                      "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                      "fileName": "com/metallicus/protonsdk/db/protondb",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db/protondb"
+                    },
+                    "description": "",
+                    "title": "ProtonDb",
+                    "content": "<p><init><\/p>\n<p>chainProviderDao<\/p>\n<p>tokenContractDao<\/p>\n<p>accountDao<\/p>\n<p>actionDao<\/p>\n<p>esrSessionDao<\/p>\n"
+                  }]
+                }
+              },
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/db",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/db"
+                },
+                "description": "",
+                "title": "com.metallicus.protonsdk.db",
+                "content": "<p>AccountContactDao<\/p>\n<p>Interface for database access for  AccountContact  related operations<\/p>\nAccountDao\n<p>Interface for database access for  Account  related operations<\/p>\nActionDao\n<p>Interface for database access for  Action  related operations<\/p>\nChainProviderDao\n<p>Interface for database access for  ChainProvider  related operations<\/p>\nDefaultTypeConverters\n<p>EOSTypeConverters<\/p>\n<p>ESRSessionDao<\/p>\n<p>Interface for database access for  ESRSession  related operations<\/p>\nProtonDb\n<p>ProtonTypeConverters<\/p>\n<p>TokenContractDao<\/p>\n<p>Interface for database access for  TokenContract  related operations<\/p>\n"
+              }]
+            },
+            "proton": {
+              "ownKey": "proton",
+              "childrenPages": {"companion": {
+                "ownKey": "companion",
+                "ownPages": [{
+                  "reference": {
+                    "path": "kotlindoc",
+                    "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                    "fileName": "com/metallicus/protonsdk/proton/companion",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/proton/companion"
+                  },
+                  "description": "",
+                  "title": "Companion",
+                  "content": ""
+                }]
+              }},
+              "ownPages": [{
+                "reference": {
+                  "path": "kotlindoc",
+                  "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+                  "fileName": "com/metallicus/protonsdk/proton",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk/proton"
+                },
+                "description": "",
+                "title": "Proton",
+                "content": "<p>Main class used for handling Proton Chain operations<\/p>esrSessionMessages\n<p>initialize<\/p>\n<p>Initialization for  Proton <\/p><p>This should be the first function called. This will start the process of retrieving\nthe  ChainProvider  and  TokenContract s given a valid Proton Chain URL<\/p>\ngetChainProvider\n<p>Get the  ChainProvider  info<\/p><p>This will return the  ChainProvider  info given the Proton Chain URl provided during initialization.<\/p>\nsetPreferredChainUrl\n<p>setPreferredHyperionHistoryUrl<\/p>\n<p>getTokenContracts<\/p>\n<p>getTokenContractsMap<\/p>\n<p>getMarketTokenContracts<\/p>\n<p>generatePrivateKey<\/p>\n<p>signWithPrivateKey<\/p>\n<p>hasPrivateKeys<\/p>\n<p>resetPrivateKeys<\/p>\n<p>isPinValid<\/p>\n<p>accountAvailable<\/p>\n<p>findAccountsForPublicKey<\/p>\n<p>findAccountsForPrivateKey<\/p>\n<p>getActiveAccountName<\/p>\n<p>hasActiveAccount<\/p>\n<p>setActiveAccount<\/p>\n<p>getActiveAccountPrivateKey<\/p>\n<p>getActiveAccount<\/p>\n<p>refreshActiveAccount<\/p>\n<p>getActiveAccountTokenBalances<\/p>\n<p>getActiveAccountTokenBalance<\/p>\n<p>getActiveAccountActions<\/p>\n<p>getActiveAccountActionsLiveData<\/p>\n<p>updateAccountName<\/p>\n<p>updateAccountAvatar<\/p>\n<p>transferTokensByTokenContractId<\/p>\n<p>transferTokensByContract<\/p>\n<p>signTransaction<\/p>\n<p>signAndPushTransaction<\/p>\n<p>decodeESR<\/p>\n<p>cancelAuthorizeESR<\/p>\n<p>authorizeESR<\/p>\n<p>initESRSessions<\/p>\n<p>decodeESRSessionMessage<\/p>\n<p>cancelESRSessionMessage<\/p>\n<p>authorizeESRSessionMessage<\/p>\n<p>getESRSessions<\/p>\n<p>removeESRSession<\/p>\n<p>removeAllESRSessions<\/p>\n<p>getSwapPools<\/p>\n<p>getTableRows<\/p>\n"
+              }]
+            }
+          },
+          "ownPages": [{
+            "reference": {
+              "path": "kotlindoc",
+              "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+              "fileName": "com/metallicus/protonsdk",
+              "extension": "html",
+              "usePrettyUrl": true,
+              "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc/com/metallicus/protonsdk"
+            },
+            "description": "",
+            "title": "com.metallicus.protonsdk",
+            "content": "<p>AccountModule<\/p>\n<p>Helper class used for  Account  based operations<\/p>\nActionsModule\n<p>Helper class used for  Action  based operations<\/p>\nChainProviderModule\n<p>Helper class used for  ChainProvider  based operations<\/p>\nCurrencyBalancesModule\n<p>Helper class used for  CurrencyBalance  based operations<\/p>\nProton\n<p>Main class used for handling Proton Chain operations<\/p>\nTokenContractsModule\n<p>Helper class used for  TokenContract  based operations<\/p>\nWorkersModule\n<p>Helper class used to facilitate WorkManager operations<\/p>\ncom.metallicus.protonsdk.api\n<p>com.metallicus.protonsdk.common<\/p>\n<p>com.metallicus.protonsdk.db<\/p>\n<p>com.metallicus.protonsdk.di<\/p>\n<p>com.metallicus.protonsdk.model<\/p>\n<p>com.metallicus.protonsdk.repository<\/p>\n<p>com.metallicus.protonsdk.workers<\/p>\n<p>com.metallicus.protonsdk.securestorage<\/p>\n<p>com.metallicus.protonsdk.eosio.commander<\/p>\n"
+          }]
+        }}
+      }}
+    }},
+    "ownPages": [{
+      "reference": {
+        "path": "kotlindoc",
+        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://protonprotocol.github.io/ProtonKotlin/kotlindoc"
+      },
+      "description": "",
+      "title": "README",
+      "content": "<h1 id=\"proton-kotlin-wallet-sdk-beta-\"><a href=\"#proton-kotlin-wallet-sdk-beta-\" id=\"proton-kotlin-wallet-sdk-beta-\" class=\"anchor\"><\/a>Proton Kotlin Wallet SDK (Beta) 🚧<\/h1>\n<p><img src=\"https://img.shields.io/github/v/release/ProtonProtocol/ProtonKotlin?include_prereleases\" alt=\"GitHub release (latest by date including pre-releases)\" />\n<img src=\"https://img.shields.io/github/license/ProtonProtocol/ProtonKotlin\" alt=\"GitHub\" /><\/p>\n<p>Kotlin library for handling Proton Chain operations. The main purpose\nfor this library is for account and key management, but also handles\nsigning and pushing transactions.<\/p>\n<p><strong>Important:<\/strong> <em>This library is currently under heavy development.\nPlease be aware that all functionality is subject to change at any time.\nDocumentation and examples are also being worked on and will change\nover time.<\/em><\/p>\n<h1 id=\"installation\"><a href=\"#installation\" id=\"installation\" class=\"anchor\"><\/a>Installation<\/h1>\n<p>This library is hosted by Github Packages so you will need to provide your Github\ncredentials for access.<\/p>\n<pre><code class=\"language-gradle\">allprojects {\n    repositories {\n        ...\n        maven {\n            name = &quot;ProtonKotlinSdk&quot;\n            url = uri(&quot;https://maven.pkg.github.com/ProtonProtocol/ProtonKotlin&quot;)\n            credentials {\n                ...\n                username = properties.getProperty('github.username')\n                password = properties.getProperty('github.token')\n            }\n        }\n    }\n}\n<\/code><\/pre>\n<p>Then add the following dependency to your module's build.gradle<\/p>\n<pre><code class=\"language-gradle\">dependencies {\n    ...\n    implementation &quot;com.metallicus:protonsdk:{latest_version}&quot;\n}\n<\/code><\/pre>\n<p><em>The minimum Android SDK requirement is 21.<\/em><\/p>\n<h1 id=\"usage\"><a href=\"#usage\" id=\"usage\" class=\"anchor\"><\/a>Usage<\/h1>\n<p>The main class that you will interface with is <code>Proton<\/code> which\nencapsulates all the needed functions.<\/p>\n<p>First you will need to initialize with either a MainNet or TestNet url.<\/p>\n<p>MainNet:<\/p>\n<pre><code>https://api.protonchain.com\n<\/code><\/pre>\n<p>TestNet:<\/p>\n<pre><code>https://api-dev.protonchain.com\n<\/code><\/pre>\n<p>This is recommended during app startup.<\/p>\n<pre><code class=\"language-kotlin\">override fun onCreate() {\n    super.onCreate()\n    \n    Proton.getInstance(this).initialize(protonChainUrl)\n}\n<\/code><\/pre>\n<p>Once initialized you will be able to:<\/p>\n<ul>\n<li>Fetch Chain Provider info<\/li>\n<li>Fetch Token Contracts<\/li>\n<li>Find Proton accounts given a public or private key<\/li>\n<li>Generate and/or securely store a private key<\/li>\n<li>Set and store an &quot;active&quot; account<\/li>\n<\/ul>\n<p>Once an active account has been set you can:<\/p>\n<ul>\n<li>Fetch token balances (with exchange rates) for active account<\/li>\n<li>Fetch transaction history for active account<\/li>\n<li>Update account name and avatar<\/li>\n<li>Transfer tokens from active account to another account<\/li>\n<\/ul>\n<p>Most of these functions require network connectivity and will return a\nLiveData resource.<br />\nThis LiveData can be observed and will emit the current state of the\naction.<\/p>\n<p>Here is an example of fetching Chain Provider info with the appropriate\nobservable states:<\/p>\n<pre><code class=\"language-kotlin\">Proton.getInstance(context).getChainProvider().observe(this, Observer { chainProviderResource -&gt;\n    when (chainProviderResource?.status) {\n        Status.SUCCESS -&gt; {\n            // Handle success state\n        }\n        Status.ERROR -&gt; {\n            // Handle error state\n        }\n        Status.LOADING -&gt; {\n            // Handle loading state\n        }\n    }\n})\n<\/code><\/pre>\n<p>You can follow this format for most of the functions called within\n<code>Proton<\/code>.<\/p>\n<h1 id=\"credits\"><a href=\"#credits\" id=\"credits\" class=\"anchor\"><\/a>Credits<\/h1>\n<p>EOS APIs inspired by\n<a href=\"https://github.com/playerone-id/EosCommander\">EOS Commander<\/a><br />\nKey Storage inspired by\n<a href=\"https://github.com/adorsys/secure-storage-android\">Secure Device Storage<\/a><\/p>\n<h1 id=\"mit-license\"><a href=\"#mit-license\" id=\"mit-license\" class=\"anchor\"><\/a>MIT License<\/h1>\n<p>Copyright (c) 2021 Proton Chain LLC, Delaware<\/p>\n<p>Permission is hereby granted, free of charge, to any person obtaining a\ncopy of this software and associated documentation files (the\n&quot;Software&quot;), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:<\/p>\n<p>The above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.<\/p>\n<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<\/p>\n"
+    }]
+  }},
+  "ownPages": [
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://protonprotocol.github.io/ProtonKotlin"
+      },
+      "description": "",
+      "title": "Home",
+      "content": ""
+    },
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+        "fileName": "404",
+        "extension": "html",
+        "usePrettyUrl": false,
+        "link": "https://protonprotocol.github.io/ProtonKotlin/404.html"
+      },
+      "description": "",
+      "title": "Not Found",
+      "content": ""
+    }
+  ]
+}

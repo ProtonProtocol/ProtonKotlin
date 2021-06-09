@@ -1,0 +1,31 @@
+{
+  "ownKey": "home",
+  "ownPages": [
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "https://protonprotocol.github.io/ProtonKotlin"
+      },
+      "description": "",
+      "title": "Home",
+      "content": ""
+    },
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "https://protonprotocol.github.io/ProtonKotlin",
+        "fileName": "404",
+        "extension": "html",
+        "usePrettyUrl": false,
+        "link": "https://protonprotocol.github.io/ProtonKotlin/404.html"
+      },
+      "description": "",
+      "title": "Not Found",
+      "content": ""
+    }
+  ]
+}
